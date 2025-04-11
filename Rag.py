@@ -21,8 +21,8 @@ def ask_ds(prompt):
             model="deepseek-r1:14b",  # Use the deepseek model
             prompt=prompt,
             options={
-                "temperature": 0.15,
-                "num_predict": 512  # Control the maximum token count
+                "temperature": 0.05,
+                "num_predict": 1024  # Control the maximum token count
             }
         )
         
