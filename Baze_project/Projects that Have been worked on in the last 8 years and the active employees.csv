@@ -1,0 +1,664 @@
+﻿Employee,Job Title,Yrs,Proj Cd,Project Name,Hrs,Act Date,Division,Discipline
+"Cooperman, Emily",Sr. Architectural Historian II,7,061880001,1320 Montg. & 1309 Wendover HRIS,66,2017-11-20 00:00:00,Environmental & Energy Division,Cultural Resources
+"Eshelman, Kristian",Archaeologist III,15,061880001,1320 Montg. & 1309 Wendover HRIS,17,2010-04-26 00:00:00,Environmental & Energy Division,Cultural Resources
+"Tomaso, Matthew S.",Director,15,061880001,1320 Montg. & 1309 Wendover HRIS,8,2010-04-26 00:00:00,Environmental & Energy Division,Cultural Resources
+"Conte, Andrew Scott",Project Coordinator,11,080890001,2705 Meister Place,12,2014-07-14 00:00:00,Surveying,"SD - NY, Wall, Cinnaminson"
+"Snow, Ronald K",Director,33,061180002,Adamsville Primary School,63,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Chen, Fred",Director,9,015060015,Arc Flash Study - Off Campus Bldgs.,9,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Snow, Ronald K",Director,33,015060015,Arc Flash Study - Off Campus Bldgs.,20,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Cooperman, Emily",Sr. Architectural Historian II,7,061720001,Cartref HRIS,57,2017-11-20 00:00:00,Environmental & Energy Division,Cultural Resources
+"Eshelman, Kristian",Archaeologist III,15,061720001,Cartref HRIS,25,2010-04-26 00:00:00,Environmental & Energy Division,Cultural Resources
+"Petroni, Marcelo P.",Project Coordinator,18,049210006,Caruso-Elem. School - Survey Srvs,6,2007-04-16 00:00:00,Surveying,SD - Warren
+"Cooperman, Emily",Sr. Architectural Historian II,7,071900001,Cheney Univ. HRIS,10,2017-11-20 00:00:00,Environmental & Energy Division,Cultural Resources
+"Eshelman, Kristian",Archaeologist III,15,071900001,Cheney Univ. HRIS,6,2010-04-26 00:00:00,Environmental & Energy Division,Cultural Resources
+"Tomaso, Matthew S.",Director,15,071900001,Cheney Univ. HRIS,17,2010-04-26 00:00:00,Environmental & Energy Division,Cultural Resources
+"Toth, Kyle",Principal Investigator-Arch History,7,071900001,Cheney Univ. HRIS,80,2018-07-23 00:00:00,Environmental & Energy Division,Cultural Resources
+"Conlon, Timothy",Vice President,3,049210001,CHESTER REDSHAW SCHOOL,10,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Oliver, P Steve",Sr. Director,45,049210001,CHESTER REDSHAW SCHOOL,39,1980-01-02 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Snow, Ronald K",Director,33,049210001,CHESTER REDSHAW SCHOOL,6,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Dimitrov-Conlon, Helena",Project Controls Manager,27,040780002,DASNY DORM ADDITIONAL SVCS,12,1997-09-10 00:00:00,Operations Support,Project Controls
+"Bortko, Adrian",Crew Chief,4,047700101,DASNY-QNS College-Perimtr. Sidewalk,18,2021-02-03 00:00:00,Surveying,"SD - NY, Wall, Cinnaminson"
+"Esquivel, Ricardo",Crew Chief,2,047700101,DASNY-QNS College-Perimtr. Sidewalk,104,2023-02-13 00:00:00,Surveying,"SD - NY, Wall, Cinnaminson"
+"Keeler, Andrew",Sr. Project Surveyor,3,047700101,DASNY-QNS College-Perimtr. Sidewalk,11,2022-05-31 00:00:00,Surveying,"SD - NY, Wall, Cinnaminson"
+"Kempinski, Norbert",Instrument Operator,2,047700101,DASNY-QNS College-Perimtr. Sidewalk,54,2022-09-12 00:00:00,Surveying,"SD - NY, Wall, Cinnaminson"
+"Lange Jr., Ward",Survey Technician,5,047700101,DASNY-QNS College-Perimtr. Sidewalk,23,2020-02-10 00:00:00,Surveying,Pipeline
+"Melaas Jr., Jason",Technical Designer,2,047700101,DASNY-QNS College-Perimtr. Sidewalk,12,2023-06-05 00:00:00,Site/Civil Eng & Landscape Arch,Other SC&LA
+"Montaldo, Joseph",Sr. Designer,6,047700101,DASNY-QNS College-Perimtr. Sidewalk,81,2018-09-10 00:00:00,Site/Civil Eng & Landscape Arch,Other SC&LA
+"Murphy, Kevin",Vice President,19,047700101,DASNY-QNS College-Perimtr. Sidewalk,8,2006-08-14 00:00:00,Surveying,"SD - NY, Wall, Cinnaminson"
+"Pagano, James",Director,12,047700101,DASNY-QNS College-Perimtr. Sidewalk,15,2013-04-22 00:00:00,Surveying,"SD - NY, Wall, Cinnaminson"
+"Rodriguez, Harold",Project Designer,7,047700101,DASNY-QNS College-Perimtr. Sidewalk,5,2018-03-26 00:00:00,Site/Civil Eng & Landscape Arch,Other SC&LA
+"Balto, Daniel",Sr. Director,6,067280002,DLEACS - Prop Cond Assessment,5,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Geraldi Lopes, Henrique",Technical Designer,3,067280003,DLEACS Measured Drawings,70,2022-07-25 00:00:00,Architecture & Engineering Division,Mechanical
+"Napolitano, Wayne",Sr. Lead Architect,3,067280005,DLEACS Restroom Rehabilitation,7,2021-09-30 00:00:00,Architecture & Engineering Division,Architect
+"Vergara, Lesly",Technical Designer,2,067280005,DLEACS Restroom Rehabilitation,131,2023-06-12 00:00:00,Architecture & Engineering Division,Architect
+"Ranft, Gregory",Director,12,067280004,DLEACS Stairs Structural Assessment,8,2013-04-22 00:00:00,Architecture & Engineering Division,Structural
+"Montana, Adolf",Sr. Project Manager,26,010740010,Drew University SWM Facilities Ph.1,19,1998-11-16 00:00:00,Site/Civil Eng & Landscape Arch,SC&LA - NJ Warren
+"Montana, Adolf",Sr. Project Manager,26,010740011,Drew University SWM Facilities Ph.2,11,1998-11-16 00:00:00,Site/Civil Eng & Landscape Arch,SC&LA - NJ Warren
+"Berninger, Kyle",Sr. Lead Engineer,11,061180003,"E,Brunswick HS Pre-Referendum Eng.",19,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Conlon, Timothy",Vice President,3,061180003,"E,Brunswick HS Pre-Referendum Eng.",35,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Dzeletovic, Darko",Sr. Lead Project Designer,7,061180003,"E,Brunswick HS Pre-Referendum Eng.",16,2018-03-26 00:00:00,Architecture & Engineering Division,Plumbing/Fire Protection
+"Prontnicki, Peter",Project Designer,7,061180003,"E,Brunswick HS Pre-Referendum Eng.",9,2018-03-05 00:00:00,Architecture & Engineering Division,Mechanical
+"Snow, Ronald K",Director,33,061180003,"E,Brunswick HS Pre-Referendum Eng.",12,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Middleton, John",Sr. Director,1,088720004,Egg Harbor Schools AoR 2024-2025,6,2024-03-27 00:00:00,Architecture & Engineering Division,Mechanical
+"Middleton, John",Sr. Director,1,088720002,Egg Harbor Twp BOE AOR 2023-2024,11,2024-03-27 00:00:00,Architecture & Engineering Division,Mechanical
+"Kahn, Elisabeth",Lead Architect,1,088720003,EHCS Community School Chiller Repl.,39,2024-03-27 00:00:00,Architecture & Engineering Division,Architect
+"Middleton, John",Sr. Director,1,088720003,EHCS Community School Chiller Repl.,49,2024-03-27 00:00:00,Architecture & Engineering Division,Mechanical
+"Patnaik, Rosali",Sr. Designer,1,088720003,EHCS Community School Chiller Repl.,12,2024-07-15 00:00:00,Architecture & Engineering Division,Architect
+"Chen, Fred",Director,9,059150001,Electrical Engineering Services,48,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Middleton, John",Sr. Director,1,067100004,Emerson School RTU Replacement,18,2024-03-27 00:00:00,Architecture & Engineering Division,Mechanical
+"Petroni, Marcelo P.",Project Coordinator,18,031710018,Ex Cond Munger Fac DO NOT TOUCH TH,62,2007-04-16 00:00:00,Surveying,SD - Warren
+"Battaglia, Frank",Technical Designer,2,063640020,Florence Twp Schools HVAC Upgrades,100,2023-06-12 00:00:00,Architecture & Engineering Division,Mechanical
+"Berninger, Kyle",Sr. Lead Engineer,11,063640020,Florence Twp Schools HVAC Upgrades,67,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Carras, Matthew",Designer,1,063640020,Florence Twp Schools HVAC Upgrades,175,2024-06-10 00:00:00,Architecture & Engineering Division,Mechanical
+"Chen, Fred",Director,9,063640020,Florence Twp Schools HVAC Upgrades,7,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Conlon, Timothy",Vice President,3,063640020,Florence Twp Schools HVAC Upgrades,6,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Salib, Peter",Project Designer,1,063640020,Florence Twp Schools HVAC Upgrades,17,2024-06-24 00:00:00,Architecture & Engineering Division,Electrical
+"Zongwe, Kiwele",Sr. Designer,4,063640020,Florence Twp Schools HVAC Upgrades,161,2021-04-26 00:00:00,Architecture & Engineering Division,Electrical
+"Berninger, Kyle",Sr. Lead Engineer,11,088760003,Franklin Twp- Main Rd School Boiler,6,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Carras, Matthew",Designer,1,088760003,Franklin Twp- Main Rd School Boiler,23,2024-06-10 00:00:00,Architecture & Engineering Division,Mechanical
+"Middleton, John",Sr. Director,1,088760003,Franklin Twp- Main Rd School Boiler,25,2024-03-27 00:00:00,Architecture & Engineering Division,Mechanical
+"Prontnicki, Peter",Project Designer,7,059150004,Gannon Hall HVAC Assessment,17,2018-03-05 00:00:00,Architecture & Engineering Division,Mechanical
+"Berninger, Kyle",Sr. Lead Engineer,11,063640001,Garrett County Courthouse Complex,102,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Conlon, Timothy",Vice President,3,063640001,Garrett County Courthouse Complex,51,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Meharg, David",Director,8,063640001,Garrett County Courthouse Complex,5,2017-06-05 00:00:00,Architecture & Engineering Division,Electrical
+"Pradhan, Amal G.",Sr. Project Designer,24,063640001,Garrett County Courthouse Complex,161,2000-10-30 00:00:00,Architecture & Engineering Division,Architect
+"Snow, Ronald K",Director,33,063640001,Garrett County Courthouse Complex,121,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Salmon, William",Vice President,10,027800003,GC - Residential Concept Plans,18,2015-04-20 00:00:00,Site/Civil Eng & Landscape Arch,SC&LA - NJ Cherry Hill / Wall
+"Schooling, Jason",Lead Engineer,11,027800003,GC - Residential Concept Plans,32,2014-06-30 00:00:00,Site/Civil Eng & Landscape Arch,SC&LA - NJ Cherry Hill / Wall
+"Couvillion, Phillip",Sr. Lead Engineer,2,063640018,Givaudan RTU Support,55,2023-06-05 00:00:00,Architecture & Engineering Division,Structural
+"Gonzalez, Angela",Sr. Lead Architect,11,065280001,GSB Cox Hall Rendering & Const.Cost,7,2014-01-06 00:00:00,Architecture & Engineering Division,Architect
+"Meharg, David",Director,8,077210001,Hackensack Medical School - On Call,16,2017-06-05 00:00:00,Architecture & Engineering Division,Electrical
+"Tomaso, Matthew S.",Director,15,087570001,Hamilton Twp. BOE-Duberson School,22,2010-04-26 00:00:00,Environmental & Energy Division,Cultural Resources
+"Toth, Kyle",Principal Investigator-Arch History,7,087570001,Hamilton Twp. BOE-Duberson School,64,2018-07-23 00:00:00,Environmental & Energy Division,Cultural Resources
+"Battaglia, Frank",Technical Designer,2,014910018,HCC - Culinary Arts Bldg.HVAC Repl.,11,2023-06-12 00:00:00,Architecture & Engineering Division,Mechanical
+"Berninger, Kyle",Sr. Lead Engineer,11,014910018,HCC - Culinary Arts Bldg.HVAC Repl.,146,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Carras, Matthew",Designer,1,014910018,HCC - Culinary Arts Bldg.HVAC Repl.,33,2024-06-10 00:00:00,Architecture & Engineering Division,Mechanical
+"Chen, Fred",Director,9,014910018,HCC - Culinary Arts Bldg.HVAC Repl.,97,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Conlon, Timothy",Vice President,3,014910018,HCC - Culinary Arts Bldg.HVAC Repl.,16,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Dzeletovic, Darko",Sr. Lead Project Designer,7,014910018,HCC - Culinary Arts Bldg.HVAC Repl.,46,2018-03-26 00:00:00,Architecture & Engineering Division,Plumbing/Fire Protection
+"Ganley, Jennifer",Director,5,014910018,HCC - Culinary Arts Bldg.HVAC Repl.,8,2019-09-16 00:00:00,Architecture & Engineering Division,Architect
+"Geraldi Lopes, Henrique",Technical Designer,3,014910018,HCC - Culinary Arts Bldg.HVAC Repl.,14,2022-07-25 00:00:00,Architecture & Engineering Division,Mechanical
+"Martinez, Matthew",Technical Designer,2,014910018,HCC - Culinary Arts Bldg.HVAC Repl.,297,2023-06-12 00:00:00,Architecture & Engineering Division,Plumbing/Fire Protection
+"Salib, Peter",Project Designer,1,014910018,HCC - Culinary Arts Bldg.HVAC Repl.,49,2024-06-24 00:00:00,Architecture & Engineering Division,Electrical
+"Skodi, Samuel",Designer,1,014910018,HCC - Culinary Arts Bldg.HVAC Repl.,5,2024-05-28 00:00:00,Architecture & Engineering Division,Electrical
+"Vazquez, Arianna",Technical Support,1,014910018,HCC - Culinary Arts Bldg.HVAC Repl.,25,2024-05-20 00:00:00,Architecture & Engineering Division,Architect
+"Xie, Xiaohui",Lead Engineer,8,014910018,HCC - Culinary Arts Bldg.HVAC Repl.,22,2017-03-06 00:00:00,Architecture & Engineering Division,Structural
+"Zongwe, Kiwele",Sr. Designer,4,014910018,HCC - Culinary Arts Bldg.HVAC Repl.,143,2021-04-26 00:00:00,Architecture & Engineering Division,Electrical
+"Becica, Steve",Sr. Director,1,014910019,HCC- 870 Bergen Ave Façade Survey,5,2024-03-27 00:00:00,Architecture & Engineering Division,Architect
+"Conlon, Timothy",Vice President,3,014910019,HCC- 870 Bergen Ave Façade Survey,5,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Xie, Xiaohui",Lead Engineer,8,014910019,HCC- 870 Bergen Ave Façade Survey,14,2017-03-06 00:00:00,Architecture & Engineering Division,Structural
+"Cooperman, Emily",Sr. Architectural Historian II,7,032340001,Historic Resources Inventory,57,2017-11-20 00:00:00,Environmental & Energy Division,Cultural Resources
+"Berninger, Kyle",Sr. Lead Engineer,11,014910017,Hudson CC-870 Bergen RTU Repl. CA,49,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Conlon, Timothy",Vice President,3,014910017,Hudson CC-870 Bergen RTU Repl. CA,10,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Bird, Eric",Crew Chief,10,055690001,Hudson County School of Technology,17,2014-10-20 00:00:00,Surveying,SD - Warren
+"Clark, Andrew",Lead Project Scientist,9,055690001,Hudson County School of Technology,32,2015-09-08 00:00:00,Environmental & Energy Division,L&P / PSE&G
+"Cohen, Michael P",Sr. Vice President,42,055690001,Hudson County School of Technology,1055,1983-07-05 00:00:00,Architecture & Engineering Division,Structural
+"Dublin, Roy R.",Sr. Project BIM Technician,24,055690001,Hudson County School of Technology,1443,2001-01-29 00:00:00,Architecture & Engineering Division,Structural
+"Dzierzanowski, Agnes H",Lead Project Controls Analyst,31,055690001,Hudson County School of Technology,16,1993-08-30 00:00:00,Operations Support,Project Controls
+"Friedman, Brian J.",Project Coordinator,14,055690001,Hudson County School of Technology,19,2011-04-04 00:00:00,Surveying,SD - Warren
+"Joshnick, Brad P",Vice President,34,055690001,Hudson County School of Technology,12,1991-04-01 00:00:00,Surveying,SD - Warren
+"Lennon, Mark",Sr. Director,20,055690001,Hudson County School of Technology,166,2005-01-26 00:00:00,Operations Support,Risk Management
+"Montana, Adolf",Sr. Project Manager,26,055690001,Hudson County School of Technology,1081,1998-11-16 00:00:00,Site/Civil Eng & Landscape Arch,SC&LA - NJ Warren
+"Oliver, P Steve",Sr. Director,45,055690001,Hudson County School of Technology,156,1980-01-02 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Petroni, Marcelo P.",Project Coordinator,18,055690001,Hudson County School of Technology,109,2007-04-16 00:00:00,Surveying,SD - Warren
+"Ranft, Gregory",Director,12,055690001,Hudson County School of Technology,1143,2013-04-22 00:00:00,Architecture & Engineering Division,Structural
+"Sartor, John A",President & CEO,33,055690001,Hudson County School of Technology,212,1992-06-22 00:00:00,Operations Support,Operations
+"Schooling, Jason",Lead Engineer,11,055690001,Hudson County School of Technology,97,2014-06-30 00:00:00,Site/Civil Eng & Landscape Arch,SC&LA - NJ Cherry Hill / Wall
+"Shpunder, Lisa A",Sr. Marketing Specialist,35,055690001,Hudson County School of Technology,6,1990-07-16 00:00:00,Operations Support,Marketing
+"Snow, Ronald K",Director,33,055690001,Hudson County School of Technology,13,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Berninger, Kyle",Sr. Lead Engineer,11,080470001,"HVAC Assessment Project, CC 22-11",60,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Conlon, Timothy",Vice President,3,080470001,"HVAC Assessment Project, CC 22-11",9,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Pereira, Pedro M.",Lead Designer,27,080470001,"HVAC Assessment Project, CC 22-11",13,1998-04-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Prontnicki, Peter",Project Designer,7,080470001,"HVAC Assessment Project, CC 22-11",140,2018-03-05 00:00:00,Architecture & Engineering Division,Mechanical
+"Chen, Fred",Director,9,052600001,Institute of Music Kitchen Upgrade,61,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Conlon, Timothy",Vice President,3,052600001,Institute of Music Kitchen Upgrade,40,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Dzeletovic, Darko",Sr. Lead Project Designer,7,052600001,Institute of Music Kitchen Upgrade,18,2018-03-26 00:00:00,Architecture & Engineering Division,Plumbing/Fire Protection
+"Oselador, Sophia",Sr. Project Designer,7,052600001,Institute of Music Kitchen Upgrade,6,2018-06-04 00:00:00,Architecture & Engineering Division,Electrical
+"Pereira, Pedro M.",Lead Designer,27,052600001,Institute of Music Kitchen Upgrade,28,1998-04-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Zongwe, Kiwele",Sr. Designer,4,052600001,Institute of Music Kitchen Upgrade,185,2021-04-26 00:00:00,Architecture & Engineering Division,Electrical
+"Bird, Eric",Crew Chief,10,064720001,Inwood Academy,8,2014-10-20 00:00:00,Surveying,SD - Warren
+"Dimitrov-Kuhl, Alex",Technical Designer,3,064720001,Inwood Academy,14,2022-03-21 00:00:00,Architecture & Engineering Division,Structural
+"Ferfecki, Brian",Survey Technician,4,064720001,Inwood Academy,18,2021-06-21 00:00:00,Surveying,SD - Warren
+"Finnegan, Lauren",Technical Designer,3,064720001,Inwood Academy,47,2022-01-24 00:00:00,Site/Civil Eng & Landscape Arch,SC&LA - NY Yonkers
+"Friedman, Brian J.",Project Coordinator,14,064720001,Inwood Academy,8,2011-04-04 00:00:00,Surveying,SD - Warren
+"Joshnick, Brad P",Vice President,34,064720001,Inwood Academy,5,1991-04-01 00:00:00,Surveying,SD - Warren
+"Mundt, Frederick",Project Manager,11,064720001,Inwood Academy,28,2014-07-07 00:00:00,Site/Civil Eng & Landscape Arch,SC&LA - NY Yonkers
+"Ranft, Gregory",Director,12,064720001,Inwood Academy,24,2013-04-22 00:00:00,Architecture & Engineering Division,Structural
+"Schneider, William",Vice President,7,064720001,Inwood Academy,5,2018-07-10 00:00:00,Site/Civil Eng & Landscape Arch,SC&LA - NY Yonkers
+"Battaglia, Frank",Technical Designer,2,101230001,Irvington HS:CulinaryLab Renovation,18,2023-06-12 00:00:00,Architecture & Engineering Division,Mechanical
+"Berninger, Kyle",Sr. Lead Engineer,11,101230001,Irvington HS:CulinaryLab Renovation,26,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Compagnino, Michael",Technical Designer,1,101230001,Irvington HS:CulinaryLab Renovation,19,2023-08-28 00:00:00,Architecture & Engineering Division,Electrical
+"Dzeletovic, Darko",Sr. Lead Project Designer,7,101230001,Irvington HS:CulinaryLab Renovation,18,2018-03-26 00:00:00,Architecture & Engineering Division,Plumbing/Fire Protection
+"Snow, Ronald K",Director,33,101230001,Irvington HS:CulinaryLab Renovation,5,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Vergara, Lesly",Technical Designer,2,101230001,Irvington HS:CulinaryLab Renovation,19,2023-06-12 00:00:00,Architecture & Engineering Division,Architect
+"Zongwe, Kiwele",Sr. Designer,4,101230001,Irvington HS:CulinaryLab Renovation,16,2021-04-26 00:00:00,Architecture & Engineering Division,Electrical
+"Berninger, Kyle",Sr. Lead Engineer,11,063640005,Jersey City ESIP,256,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Bustos Hernandez, Juan",Project Engineer,5,063640005,Jersey City ESIP,21,2019-11-11 00:00:00,Architecture & Engineering Division,Structural
+"Chen, Fred",Director,9,063640005,Jersey City ESIP,212,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Conlon, Timothy",Vice President,3,063640005,Jersey City ESIP,11,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Dimitrov-Kuhl, Alex",Technical Designer,3,063640005,Jersey City ESIP,14,2022-03-21 00:00:00,Architecture & Engineering Division,Structural
+"Dublin, Roy R.",Sr. Project BIM Technician,24,063640005,Jersey City ESIP,47,2001-01-29 00:00:00,Architecture & Engineering Division,Structural
+"Dzeletovic, Darko",Sr. Lead Project Designer,7,063640005,Jersey City ESIP,8,2018-03-26 00:00:00,Architecture & Engineering Division,Plumbing/Fire Protection
+"Exposito, Rita",Lead Designer,11,063640005,Jersey City ESIP,6,2014-07-28 00:00:00,Environmental & Energy Division,Energy
+"Ferfecki, Brian",Survey Technician,4,063640005,Jersey City ESIP,17,2021-06-21 00:00:00,Surveying,SD - Warren
+"Montana, Adolf",Sr. Project Manager,26,063640005,Jersey City ESIP,30,1998-11-16 00:00:00,Site/Civil Eng & Landscape Arch,SC&LA - NJ Warren
+"Oselador, Sophia",Sr. Project Designer,7,063640005,Jersey City ESIP,26,2018-06-04 00:00:00,Architecture & Engineering Division,Electrical
+"Ranft, Gregory",Director,12,063640005,Jersey City ESIP,10,2013-04-22 00:00:00,Architecture & Engineering Division,Structural
+"Zongwe, Kiwele",Sr. Designer,4,063640005,Jersey City ESIP,173,2021-04-26 00:00:00,Architecture & Engineering Division,Electrical
+"Balto, Daniel",Sr. Director,6,063640009,Jersey City ESIP -PV- Roof Replace,47,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Futey, John R.",Lead Project Designer,6,063640009,Jersey City ESIP -PV- Roof Replace,18,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Pradhan, Amal G.",Sr. Project Designer,24,016580003,Keck Center D272 Renovation,82,2000-10-30 00:00:00,Architecture & Engineering Division,Architect
+"Scally, Thomas D.",Sr. Director,27,016580003,Keck Center D272 Renovation,7,1998-06-08 00:00:00,Architecture & Engineering Division,Architect
+"Friedman, Brian J.",Project Coordinator,14,072750001,KIPP - Tennis Court Lease Parcel,8,2011-04-04 00:00:00,Surveying,SD - Warren
+"Balto, Daniel",Sr. Director,6,047860018,MCVSD - FA & SEC System Upgrades,977,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Linda",Lead Designer,3,047860018,MCVSD - FA & SEC System Upgrades,18,2022-08-15 00:00:00,Architecture & Engineering Division,Architect
+"Futey, John R.",Lead Project Designer,6,047860018,MCVSD - FA & SEC System Upgrades,9,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Kahn, Elisabeth",Lead Architect,1,047860018,MCVSD - FA & SEC System Upgrades,59,2024-03-27 00:00:00,Architecture & Engineering Division,Architect
+"Signorelli, Simone",Architect,1,047860018,MCVSD - FA & SEC System Upgrades,54,2024-07-15 00:00:00,Architecture & Engineering Division,Architect
+"Vergara, Lesly",Technical Designer,2,047860018,MCVSD - FA & SEC System Upgrades,12,2023-06-12 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,047860017,MCVSD Aberdeen Weld & Elec Lab Reno,438,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Linda",Lead Designer,3,047860017,MCVSD Aberdeen Weld & Elec Lab Reno,40,2022-08-15 00:00:00,Architecture & Engineering Division,Architect
+"Brea, Jeisson",Sr. Designer,5,047860017,MCVSD Aberdeen Weld & Elec Lab Reno,40,2019-09-30 00:00:00,Architecture & Engineering Division,Structural
+"Futey, John R.",Lead Project Designer,6,047860017,MCVSD Aberdeen Weld & Elec Lab Reno,7,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Kahn, Elisabeth",Lead Architect,1,047860017,MCVSD Aberdeen Weld & Elec Lab Reno,215,2024-03-27 00:00:00,Architecture & Engineering Division,Architect
+"Signorelli, Simone",Architect,1,047860017,MCVSD Aberdeen Weld & Elec Lab Reno,304,2024-07-15 00:00:00,Architecture & Engineering Division,Architect
+"Vazquez, Arianna",Technical Support,1,047860017,MCVSD Aberdeen Weld & Elec Lab Reno,13,2024-05-20 00:00:00,Architecture & Engineering Division,Architect
+"Vergara, Lesly",Technical Designer,2,047860017,MCVSD Aberdeen Weld & Elec Lab Reno,47,2023-06-12 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,047860003,MCVSD AHS Gen Rep & CA Gen Reloc.,87,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Futey, John R.",Lead Project Designer,6,047860003,MCVSD AHS Gen Rep & CA Gen Reloc.,46,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,047860008,MCVSD Biotechnology HS Chiller,97,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Futey, John R.",Lead Project Designer,6,047860008,MCVSD Biotechnology HS Chiller,39,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,047860010,MCVSD Boiler Rep Work-CC-Hazlet-Mid,674,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Futey, John R.",Lead Project Designer,6,047860010,MCVSD Boiler Rep Work-CC-Hazlet-Mid,118,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,047860005,MCVSD CHS HVAC Evaluation,38,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Conlon, Timothy",Vice President,3,047860005,MCVSD CHS HVAC Evaluation,5,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Futey, John R.",Lead Project Designer,6,047860005,MCVSD CHS HVAC Evaluation,14,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Prontnicki, Peter",Project Designer,7,047860005,MCVSD CHS HVAC Evaluation,40,2018-03-05 00:00:00,Architecture & Engineering Division,Mechanical
+"Balto, Daniel",Sr. Director,6,047860001,MCVSD CHS Roof Rep & HVAC Repairs,299,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Conlon, Timothy",Vice President,3,047860001,MCVSD CHS Roof Rep & HVAC Repairs,13,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Futey, John R.",Lead Project Designer,6,047860001,MCVSD CHS Roof Rep & HVAC Repairs,256,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Gonzalez, Angela",Sr. Lead Architect,11,047860001,MCVSD CHS Roof Rep & HVAC Repairs,22,2014-01-06 00:00:00,Architecture & Engineering Division,Architect
+"Ranft, Gregory",Director,12,047860001,MCVSD CHS Roof Rep & HVAC Repairs,30,2013-04-22 00:00:00,Architecture & Engineering Division,Structural
+"Balto, Daniel",Sr. Director,6,047860006,MCVSD Com. HS HVAC Replacement,325,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Bergamasco, Thomas J.",Sr. Designer,34,047860006,MCVSD Com. HS HVAC Replacement,10,1990-10-01 00:00:00,Architecture & Engineering Division,Water Resources
+"Berninger, Kyle",Sr. Lead Engineer,11,047860006,MCVSD Com. HS HVAC Replacement,12,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Chen, Fred",Director,9,047860006,MCVSD Com. HS HVAC Replacement,19,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Conlon, Timothy",Vice President,3,047860006,MCVSD Com. HS HVAC Replacement,45,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Futey, John R.",Lead Project Designer,6,047860006,MCVSD Com. HS HVAC Replacement,531,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Prontnicki, Peter",Project Designer,7,047860006,MCVSD Com. HS HVAC Replacement,459,2018-03-05 00:00:00,Architecture & Engineering Division,Mechanical
+"Ranft, Gregory",Director,12,047860006,MCVSD Com. HS HVAC Replacement,33,2013-04-22 00:00:00,Architecture & Engineering Division,Structural
+"Zongwe, Kiwele",Sr. Designer,4,047860006,MCVSD Com. HS HVAC Replacement,8,2021-04-26 00:00:00,Architecture & Engineering Division,Electrical
+"Balto, Daniel",Sr. Director,6,047860015,MCVSD Comprehensive Facility Study,313,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Linda",Lead Designer,3,047860015,MCVSD Comprehensive Facility Study,48,2022-08-15 00:00:00,Architecture & Engineering Division,Architect
+"Dimitrov-Conlon, Helena",Project Controls Manager,27,047860015,MCVSD Comprehensive Facility Study,33,1997-09-10 00:00:00,Operations Support,Project Controls
+"Futey, John R.",Lead Project Designer,6,047860015,MCVSD Comprehensive Facility Study,319,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,047860014,MCVSD Fire Alarm & Security Work,125,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Futey, John R.",Lead Project Designer,6,047860014,MCVSD Fire Alarm & Security Work,74,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Osborne Jr, Harry T",Project Designer,4,047860014,MCVSD Fire Alarm & Security Work,29,2021-03-08 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,047860002,MCVSD Hazlet Votech SiteWorkRepairs,90,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Futey, John R.",Lead Project Designer,6,047860002,MCVSD Hazlet Votech SiteWorkRepairs,43,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,047860007,MCVSD HTHS HVAC Evaluation,78,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Futey, John R.",Lead Project Designer,6,047860007,MCVSD HTHS HVAC Evaluation,25,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,047860009,MCVSD HTHS HVAC Replacement,2480,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Futey, John R.",Lead Project Designer,6,047860009,MCVSD HTHS HVAC Replacement,524,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,047860011,MCVSD HVAC Equip Rep Work-Cul Ed Ct,342,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Futey, John R.",Lead Project Designer,6,047860011,MCVSD HVAC Equip Rep Work-Cul Ed Ct,81,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,047860016,MCVSD MAST - Generator Replacement,151,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Linda",Lead Designer,3,047860016,MCVSD MAST - Generator Replacement,6,2022-08-15 00:00:00,Architecture & Engineering Division,Architect
+"Baumann, Scott",Crew Chief,2,047860016,MCVSD MAST - Generator Replacement,8,2022-10-10 00:00:00,Surveying,SD - Warren
+"Bustos Hernandez, Juan",Project Engineer,5,047860016,MCVSD MAST - Generator Replacement,70,2019-11-11 00:00:00,Architecture & Engineering Division,Structural
+"Ferfecki, Brian",Survey Technician,4,047860016,MCVSD MAST - Generator Replacement,24,2021-06-21 00:00:00,Surveying,SD - Warren
+"Futey, John R.",Lead Project Designer,6,047860016,MCVSD MAST - Generator Replacement,38,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Joshnick, Brad P",Vice President,34,047860016,MCVSD MAST - Generator Replacement,6,1991-04-01 00:00:00,Surveying,SD - Warren
+"Kahn, Elisabeth",Lead Architect,1,047860016,MCVSD MAST - Generator Replacement,34,2024-03-27 00:00:00,Architecture & Engineering Division,Architect
+"Signorelli, Simone",Architect,1,047860016,MCVSD MAST - Generator Replacement,5,2024-07-15 00:00:00,Architecture & Engineering Division,Architect
+"Vazquez, Arianna",Technical Support,1,047860016,MCVSD MAST - Generator Replacement,41,2024-05-20 00:00:00,Architecture & Engineering Division,Architect
+"Vergara, Lesly",Technical Designer,2,047860016,MCVSD MAST - Generator Replacement,7,2023-06-12 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,047860004,MCVSD Polytech HS-Predesign,271,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Cifelli, Mark",Sr. Director,7,047860004,MCVSD Polytech HS-Predesign,8,2017-12-11 00:00:00,Site/Civil Eng & Landscape Arch,SC&LA - NJ Cherry Hill / Wall
+"Futey, John R.",Lead Project Designer,6,047860004,MCVSD Polytech HS-Predesign,146,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,047860012,MCVSD Re-Bid Culinary HVAC Equip.,421,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Futey, John R.",Lead Project Designer,6,047860012,MCVSD Re-Bid Culinary HVAC Equip.,58,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,047860013,MCVSD Re-Bid Hazlet Boiler Rep.,332,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Futey, John R.",Lead Project Designer,6,047860013,MCVSD Re-Bid Hazlet Boiler Rep.,18,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,049210009,Millville High School Add&Alterat,1636,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Barry, Joseph",Sr. Director,9,049210009,Millville High School Add&Alterat,397,2015-12-14 00:00:00,Operations Support,Project Controls
+"Battaglia, Frank",Technical Designer,2,049210009,Millville High School Add&Alterat,6,2023-06-12 00:00:00,Architecture & Engineering Division,Mechanical
+"Bergamasco, Thomas J.",Sr. Designer,34,049210009,Millville High School Add&Alterat,9,1990-10-01 00:00:00,Architecture & Engineering Division,Water Resources
+"Berninger, Kyle",Sr. Lead Engineer,11,049210009,Millville High School Add&Alterat,2429,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Chen, Fred",Director,9,049210009,Millville High School Add&Alterat,147,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Compagnino, Michael",Technical Designer,1,049210009,Millville High School Add&Alterat,7,2023-08-28 00:00:00,Architecture & Engineering Division,Electrical
+"Conlon, Timothy",Vice President,3,049210009,Millville High School Add&Alterat,1618,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Dattilo, Christopher",Sr. Project Controls Analyst,7,049210009,Millville High School Add&Alterat,183,2018-06-18 00:00:00,Operations Support,Project Controls
+"Dimitrov-Conlon, Helena",Project Controls Manager,27,049210009,Millville High School Add&Alterat,16,1997-09-10 00:00:00,Operations Support,Project Controls
+"Dimitrov-Kuhl, Alex",Technical Designer,3,049210009,Millville High School Add&Alterat,29,2022-03-21 00:00:00,Architecture & Engineering Division,Structural
+"Dublin, Roy R.",Sr. Project BIM Technician,24,049210009,Millville High School Add&Alterat,1296,2001-01-29 00:00:00,Architecture & Engineering Division,Structural
+"Dzeletovic, Darko",Sr. Lead Project Designer,7,049210009,Millville High School Add&Alterat,1800,2018-03-26 00:00:00,Architecture & Engineering Division,Plumbing/Fire Protection
+"Futey, John R.",Lead Project Designer,6,049210009,Millville High School Add&Alterat,397,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Gacek, Sylvia",BIM Manager,8,049210009,Millville High School Add&Alterat,496,2017-07-03 00:00:00,Architecture & Engineering Division,Architect
+"Geraldi Lopes, Henrique",Technical Designer,3,049210009,Millville High School Add&Alterat,245,2022-07-25 00:00:00,Architecture & Engineering Division,Mechanical
+"Gonzalez, Angela",Sr. Lead Architect,11,049210009,Millville High School Add&Alterat,8215,2014-01-06 00:00:00,Architecture & Engineering Division,Architect
+"Kurdach, Susan",Administrative Support,8,049210009,Millville High School Add&Alterat,6,2017-01-09 00:00:00,Operations Support,Administration
+"Lazer, Adam",Director,9,049210009,Millville High School Add&Alterat,19,2015-11-23 00:00:00,Architecture & Engineering Division,Mechanical
+"Meharg, David",Director,8,049210009,Millville High School Add&Alterat,88,2017-06-05 00:00:00,Architecture & Engineering Division,Electrical
+"Oselador, Sophia",Sr. Project Designer,7,049210009,Millville High School Add&Alterat,815,2018-06-04 00:00:00,Architecture & Engineering Division,Electrical
+"Pereira, Pedro M.",Lead Designer,27,049210009,Millville High School Add&Alterat,294,1998-04-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Prontnicki, Peter",Project Designer,7,049210009,Millville High School Add&Alterat,134,2018-03-05 00:00:00,Architecture & Engineering Division,Mechanical
+"Ranft, Gregory",Director,12,049210009,Millville High School Add&Alterat,93,2013-04-22 00:00:00,Architecture & Engineering Division,Structural
+"Robertson, Stephen J.",Lead Project Designer,15,049210009,Millville High School Add&Alterat,4290,2010-01-11 00:00:00,Architecture & Engineering Division,Architect
+"Ryberg, Jesper",Sr. Project Executive,21,049210009,Millville High School Add&Alterat,8,2003-09-10 00:00:00,Architecture & Engineering Division,Architect
+"Sartor, John A",President & CEO,33,049210009,Millville High School Add&Alterat,55,1992-06-22 00:00:00,Operations Support,Operations
+"Scally, Thomas D.",Sr. Director,27,049210009,Millville High School Add&Alterat,20,1998-06-08 00:00:00,Architecture & Engineering Division,Architect
+"Sgro, Stephen",Director,10,049210009,Millville High School Add&Alterat,343,2015-07-01 00:00:00,Architecture & Engineering Division,Architect
+"Snow, Ronald K",Director,33,049210009,Millville High School Add&Alterat,2871,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Clark, Andrew",Lead Project Scientist,9,030150004,MSU Clove Rd Parking - Phase 2,33,2015-09-08 00:00:00,Environmental & Energy Division,L&P / PSE&G
+"Hermann, Craig",Sr. Project Manager,10,030150004,MSU Clove Rd Parking - Phase 2,70,2015-04-13 00:00:00,Site/Civil Eng & Landscape Arch,SC&LA - NJ Warren
+"Balto, Daniel",Sr. Director,6,030150007,MSU Finley Hall Renovations,24,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Futey, John R.",Lead Project Designer,6,030150007,MSU Finley Hall Renovations,158,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,030150008,MSU Stu Ctr Annex Roofing Study,31,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Dublin, Roy R.",Sr. Project BIM Technician,24,063640010,NBHS - Transformer Replacement,11,2001-01-29 00:00:00,Architecture & Engineering Division,Structural
+"Ranft, Gregory",Director,12,063640010,NBHS - Transformer Replacement,5,2013-04-22 00:00:00,Architecture & Engineering Division,Structural
+"Conlon, Timothy",Vice President,3,041900002,New Jersey City University LSRP,43,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Dzierzanowski, Agnes H",Lead Project Controls Analyst,31,041900002,New Jersey City University LSRP,33,1993-08-30 00:00:00,Operations Support,Project Controls
+"Elsea, Jarrett",Lead Project Scientist,11,041900002,New Jersey City University LSRP,81,2014-03-19 00:00:00,Environmental & Energy Division,Remediation So Cherry Hill
+"Exposito, Rita",Lead Designer,11,041900002,New Jersey City University LSRP,88,2014-07-28 00:00:00,Environmental & Energy Division,Energy
+"Grablauskas, Jeremy",Technical Scientist,3,041900002,New Jersey City University LSRP,30,2022-08-15 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Maravelias, Stratis",Director,12,041900002,New Jersey City University LSRP,1156,2013-04-29 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Marko, David",Sr. Project GIS Analyst,9,041900002,New Jersey City University LSRP,7,2016-06-06 00:00:00,Environmental & Energy Division,GIS
+"Patel, Sanjay","Director, Project Management",37,041900002,New Jersey City University LSRP,26,1988-03-02 00:00:00,Environmental & Energy Division,Remediation Central & North
+"Repsher, David",Project Scientist,7,041900002,New Jersey City University LSRP,496,2017-08-21 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Salinas, Luis M.",Executive Vice President,17,041900002,New Jersey City University LSRP,59,2007-11-05 00:00:00,Environmental & Energy Division,Division Manager
+"Scally, Thomas D.",Sr. Director,27,041900002,New Jersey City University LSRP,5,1998-06-08 00:00:00,Architecture & Engineering Division,Architect
+"D'Agostino, Brian G.",Sr. LSRP,19,047350002,Newark PS - Initial LSRP Services,38,2006-05-01 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Grablauskas, Jeremy",Technical Scientist,3,047350002,Newark PS - Initial LSRP Services,8,2022-08-15 00:00:00,Environmental & Energy Division,Remediation So Wall
+"D'Agostino, Brian G.",Sr. LSRP,19,014910016,Newkirk Street VI Technical Support,20,2006-05-01 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Andes, Richard",Project Scientist,4,047350004,Newton Elementary Soil SI,19,2020-09-28 00:00:00,Environmental & Energy Division,Remediation Central & North
+"D'Agostino, Brian G.",Sr. LSRP,19,047350004,Newton Elementary Soil SI,60,2006-05-01 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Chen, Fred",Director,9,014910015,NHC Fire Pump Generator Power,86,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Dublin, Roy R.",Sr. Project BIM Technician,24,052550001,NJ University Student Housing,11,2001-01-29 00:00:00,Architecture & Engineering Division,Structural
+"Maravelias, Stratis",Director,12,041900003,NJCU - Air Sampling,8,2013-04-29 00:00:00,Environmental & Energy Division,Remediation So Wall
+"D'Agostino, Brian G.",Sr. LSRP,19,007010035,NJIT Central Avenue Peer Review,19,2006-05-01 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Conlon, Timothy",Vice President,3,049210002,NJSDA Elliott Street School,32,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Dimitrov-Conlon, Helena",Project Controls Manager,27,049210002,NJSDA Elliott Street School,15,1997-09-10 00:00:00,Operations Support,Project Controls
+"Dublin, Roy R.",Sr. Project BIM Technician,24,049210002,NJSDA Elliott Street School,44,2001-01-29 00:00:00,Architecture & Engineering Division,Structural
+"Smith, Zachary",Lead Engineer,0,049210002,NJSDA Elliott Street School,18,2025-01-20 00:00:00,Architecture & Engineering Division,Mechanical
+"Snow, Ronald K",Director,33,049210002,NJSDA Elliott Street School,103,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Conlon, Timothy",Vice President,3,049210005,NJSDA Keansburg Caruso,71,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Dimitrov-Conlon, Helena",Project Controls Manager,27,049210005,NJSDA Keansburg Caruso,25,1997-09-10 00:00:00,Operations Support,Project Controls
+"Dublin, Roy R.",Sr. Project BIM Technician,24,049210005,NJSDA Keansburg Caruso,45,2001-01-29 00:00:00,Architecture & Engineering Division,Structural
+"Gonzalez, Angela",Sr. Lead Architect,11,049210005,NJSDA Keansburg Caruso,278,2014-01-06 00:00:00,Architecture & Engineering Division,Architect
+"Snow, Ronald K",Director,33,049210005,NJSDA Keansburg Caruso,159,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Berninger, Kyle",Sr. Lead Engineer,11,049210004,NJSDA Paterson PS#16,24,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Chen, Fred",Director,9,049210004,NJSDA Paterson PS#16,6,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Conlon, Timothy",Vice President,3,049210004,NJSDA Paterson PS#16,216,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Dublin, Roy R.",Sr. Project BIM Technician,24,049210004,NJSDA Paterson PS#16,34,2001-01-29 00:00:00,Architecture & Engineering Division,Structural
+"Snow, Ronald K",Director,33,049210004,NJSDA Paterson PS#16,161,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Andes, Richard",Project Scientist,4,047350003,NPS 2023 - 2024,369,2020-09-28 00:00:00,Environmental & Energy Division,Remediation Central & North
+"Bird, Eric",Crew Chief,10,047350003,NPS 2023 - 2024,8,2014-10-20 00:00:00,Surveying,SD - Warren
+"D'Agostino, Brian G.",Sr. LSRP,19,047350003,NPS 2023 - 2024,582,2006-05-01 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Dzierzanowski, Agnes H",Lead Project Controls Analyst,31,047350003,NPS 2023 - 2024,8,1993-08-30 00:00:00,Operations Support,Project Controls
+"Ferfecki, Brian",Survey Technician,4,047350003,NPS 2023 - 2024,20,2021-06-21 00:00:00,Surveying,SD - Warren
+"Grablauskas, Jeremy",Technical Scientist,3,047350003,NPS 2023 - 2024,142,2022-08-15 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Kocubinski, Grace",Scientist,1,047350003,NPS 2023 - 2024,15,2023-10-23 00:00:00,Environmental & Energy Division,Remediation Central & North
+"Kurdach, Susan",Administrative Support,8,047350003,NPS 2023 - 2024,7,2017-01-09 00:00:00,Operations Support,Administration
+"Levine, Sarah",Sr. Engineer,7,047350003,NPS 2023 - 2024,25,2017-10-02 00:00:00,Environmental & Energy Division,Remediation Central & North
+"Luksik, Wojciech",Crew Chief,3,047350003,NPS 2023 - 2024,8,2021-11-15 00:00:00,Surveying,SD - Warren
+"Maravelias, Stratis",Director,12,047350003,NPS 2023 - 2024,22,2013-04-29 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Marko, David",Sr. Project GIS Analyst,9,047350003,NPS 2023 - 2024,10,2016-06-06 00:00:00,Environmental & Energy Division,GIS
+"Patel, Sanjay","Director, Project Management",37,047350003,NPS 2023 - 2024,20,1988-03-02 00:00:00,Environmental & Energy Division,Remediation Central & North
+"Repsher, David",Project Scientist,7,047350003,NPS 2023 - 2024,17,2017-08-21 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Salinas, Luis M.",Executive Vice President,17,047350003,NPS 2023 - 2024,24,2007-11-05 00:00:00,Environmental & Energy Division,Division Manager
+"Whitehead, Donald L",Scientific Leader,38,047350003,NPS 2023 - 2024,50,1987-03-02 00:00:00,Environmental & Energy Division,Remediation Central & North
+"Andes, Richard",Project Scientist,4,047350007,NPS FY 2025 Envr Services,69,2020-09-28 00:00:00,Environmental & Energy Division,Remediation Central & North
+"Charette, Alexander",Technical Scientist,3,047350007,NPS FY 2025 Envr Services,7,2022-07-18 00:00:00,Environmental & Energy Division,Remediation Central & North
+"D'Agostino, Brian G.",Sr. LSRP,19,047350007,NPS FY 2025 Envr Services,457,2006-05-01 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Elsea, Jarrett",Lead Project Scientist,11,047350007,NPS FY 2025 Envr Services,108,2014-03-19 00:00:00,Environmental & Energy Division,Remediation So Cherry Hill
+"Exposito, Rita",Lead Designer,11,047350007,NPS FY 2025 Envr Services,11,2014-07-28 00:00:00,Environmental & Energy Division,Energy
+"Grablauskas, Jeremy",Technical Scientist,3,047350007,NPS FY 2025 Envr Services,45,2022-08-15 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Kurdach, Susan",Administrative Support,8,047350007,NPS FY 2025 Envr Services,5,2017-01-09 00:00:00,Operations Support,Administration
+"Levine, Sarah",Sr. Engineer,7,047350007,NPS FY 2025 Envr Services,12,2017-10-02 00:00:00,Environmental & Energy Division,Remediation Central & North
+"Lewis, Melissa A.",GIS Analyst,19,047350007,NPS FY 2025 Envr Services,7,2006-07-05 00:00:00,Environmental & Energy Division,GIS
+"Maravelias, Stratis",Director,12,047350007,NPS FY 2025 Envr Services,15,2013-04-29 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Marko, David",Sr. Project GIS Analyst,9,047350007,NPS FY 2025 Envr Services,9,2016-06-06 00:00:00,Environmental & Energy Division,GIS
+"Patel, Sanjay","Director, Project Management",37,047350007,NPS FY 2025 Envr Services,13,1988-03-02 00:00:00,Environmental & Energy Division,Remediation Central & North
+"Rappisi-Fernandes, Nikkii M.",Financial Analyst,11,047350007,NPS FY 2025 Envr Services,5,2013-12-02 00:00:00,Operations Support,Project Controls
+"Repsher, David",Project Scientist,7,047350007,NPS FY 2025 Envr Services,73,2017-08-21 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Salinas, Luis M.",Executive Vice President,17,047350007,NPS FY 2025 Envr Services,16,2007-11-05 00:00:00,Environmental & Energy Division,Division Manager
+"Schmidt, Emily Rose",Scientist,1,047350007,NPS FY 2025 Envr Services,21,2024-06-24 00:00:00,Environmental & Energy Division,Remediation Central & North
+"Shulack, Joseph",Project Scientist,1,047350007,NPS FY 2025 Envr Services,113,2024-07-15 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Weikl, Lauren",Scientist,0,047350007,NPS FY 2025 Envr Services,12,2024-08-20 00:00:00,Environmental & Energy Division,Remediation Central & North
+"Whitehead, Donald L",Scientific Leader,38,047350007,NPS FY 2025 Envr Services,10,1987-03-02 00:00:00,Environmental & Energy Division,Remediation Central & North
+"Andes, Richard",Project Scientist,4,047350005,NPS-Additional Services CEC Eval,22,2020-09-28 00:00:00,Environmental & Energy Division,Remediation Central & North
+"D'Agostino, Brian G.",Sr. LSRP,19,047350005,NPS-Additional Services CEC Eval,75,2006-05-01 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Elsea, Jarrett",Lead Project Scientist,11,047350005,NPS-Additional Services CEC Eval,40,2014-03-19 00:00:00,Environmental & Energy Division,Remediation So Cherry Hill
+"Grablauskas, Jeremy",Technical Scientist,3,047350005,NPS-Additional Services CEC Eval,31,2022-08-15 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Maravelias, Stratis",Director,12,047350005,NPS-Additional Services CEC Eval,8,2013-04-29 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Repsher, David",Project Scientist,7,047350005,NPS-Additional Services CEC Eval,32,2017-08-21 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Shulack, Joseph",Project Scientist,1,047350005,NPS-Additional Services CEC Eval,60,2024-07-15 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Battaglia, Frank",Technical Designer,2,024700004,NYCSCA I.S.123X,10,2023-06-12 00:00:00,Architecture & Engineering Division,Mechanical
+"Berninger, Kyle",Sr. Lead Engineer,11,024700004,NYCSCA I.S.123X,6,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Bueno, Maria DeDomenico",Sr. Project Designer,7,024700004,NYCSCA I.S.123X,265,2017-09-11 00:00:00,Architecture & Engineering Division,Architect
+"Cahalin, Sean",Lead Architect,0,024700004,NYCSCA I.S.123X,376,2024-10-14 00:00:00,Architecture & Engineering Division,Architect
+"Conlon, Timothy",Vice President,3,024700004,NYCSCA I.S.123X,5,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Dzeletovic, Darko",Sr. Lead Project Designer,7,024700004,NYCSCA I.S.123X,44,2018-03-26 00:00:00,Architecture & Engineering Division,Plumbing/Fire Protection
+"Golubinski, William",Project Designer,1,024700004,NYCSCA I.S.123X,22,2024-07-15 00:00:00,Architecture & Engineering Division,Architect
+"Hui, Samantha",Technical Designer,2,024700004,NYCSCA I.S.123X,612,2022-12-12 00:00:00,Architecture & Engineering Division,Architect
+"Khan, Rifah",Project Designer,3,024700004,NYCSCA I.S.123X,405,2022-03-09 00:00:00,Architecture & Engineering Division,Architect
+"Lehn, Stephanie",Director,6,024700004,NYCSCA I.S.123X,52,2018-09-12 00:00:00,Architecture & Engineering Division,Architect
+"Martinez, Matthew",Technical Designer,2,024700004,NYCSCA I.S.123X,47,2023-06-12 00:00:00,Architecture & Engineering Division,Plumbing/Fire Protection
+"Osborne Jr, Harry T",Project Designer,4,024700004,NYCSCA I.S.123X,47,2021-03-08 00:00:00,Architecture & Engineering Division,Architect
+"Park, Anna",Project Designer,3,024700004,NYCSCA I.S.123X,202,2022-03-21 00:00:00,Architecture & Engineering Division,Architect
+"Patnaik, Rosali",Sr. Designer,1,024700004,NYCSCA I.S.123X,164,2024-07-15 00:00:00,Architecture & Engineering Division,Architect
+"Phillips, David",Sr. Lead Project Designer,2,024700004,NYCSCA I.S.123X,45,2022-08-22 00:00:00,Architecture & Engineering Division,Architect
+"Polera, Maria",Project Designer,2,024700004,NYCSCA I.S.123X,20,2023-06-05 00:00:00,Architecture & Engineering Division,Architect
+"Skodi, Samuel",Designer,1,024700004,NYCSCA I.S.123X,19,2024-05-28 00:00:00,Architecture & Engineering Division,Electrical
+"Snow, Ronald K",Director,33,024700004,NYCSCA I.S.123X,22,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Bueno, Maria DeDomenico",Sr. Project Designer,7,024700005,NYCSCA K842 (PS045K),207,2017-09-11 00:00:00,Architecture & Engineering Division,Architect
+"Cahalin, Sean",Lead Architect,0,024700005,NYCSCA K842 (PS045K),62,2024-10-14 00:00:00,Architecture & Engineering Division,Architect
+"Calvi, Michael",Project Designer,2,024700005,NYCSCA K842 (PS045K),306,2023-05-22 00:00:00,Architecture & Engineering Division,Architect
+"Dzeletovic, Darko",Sr. Lead Project Designer,7,024700005,NYCSCA K842 (PS045K),18,2018-03-26 00:00:00,Architecture & Engineering Division,Plumbing/Fire Protection
+"Fox, Alan",Lead Engineer,4,024700005,NYCSCA K842 (PS045K),5,2021-02-16 00:00:00,Site/Civil Eng & Landscape Arch,Other SC&LA
+"Hui, Samantha",Technical Designer,2,024700005,NYCSCA K842 (PS045K),67,2022-12-12 00:00:00,Architecture & Engineering Division,Architect
+"Kapferer, Lori",Sr. Project Engineer,2,024700005,NYCSCA K842 (PS045K),6,2022-11-07 00:00:00,Site/Civil Eng & Landscape Arch,SC&LA - NJ Warren
+"Khan, Rifah",Project Designer,3,024700005,NYCSCA K842 (PS045K),11,2022-03-09 00:00:00,Architecture & Engineering Division,Architect
+"Lehn, Stephanie",Director,6,024700005,NYCSCA K842 (PS045K),40,2018-09-12 00:00:00,Architecture & Engineering Division,Architect
+"Martinez, Matthew",Technical Designer,2,024700005,NYCSCA K842 (PS045K),7,2023-06-12 00:00:00,Architecture & Engineering Division,Plumbing/Fire Protection
+"Montaldo, Joseph",Sr. Designer,6,024700005,NYCSCA K842 (PS045K),84,2018-09-10 00:00:00,Site/Civil Eng & Landscape Arch,Other SC&LA
+"Park, Anna",Project Designer,3,024700005,NYCSCA K842 (PS045K),629,2022-03-21 00:00:00,Architecture & Engineering Division,Architect
+"Phillips, David",Sr. Lead Project Designer,2,024700005,NYCSCA K842 (PS045K),6,2022-08-22 00:00:00,Architecture & Engineering Division,Architect
+"Skodi, Samuel",Designer,1,024700005,NYCSCA K842 (PS045K),9,2024-05-28 00:00:00,Architecture & Engineering Division,Electrical
+"Bueno, Maria DeDomenico",Sr. Project Designer,7,024700003,NYCSCA PS 198K Reso A Cafeteria Up,397,2017-09-11 00:00:00,Architecture & Engineering Division,Architect
+"Conlon, Timothy",Vice President,3,024700003,NYCSCA PS 198K Reso A Cafeteria Up,11,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Dzeletovic, Darko",Sr. Lead Project Designer,7,024700003,NYCSCA PS 198K Reso A Cafeteria Up,19,2018-03-26 00:00:00,Architecture & Engineering Division,Plumbing/Fire Protection
+"Hui, Samantha",Technical Designer,2,024700003,NYCSCA PS 198K Reso A Cafeteria Up,676,2022-12-12 00:00:00,Architecture & Engineering Division,Architect
+"Khan, Rifah",Project Designer,3,024700003,NYCSCA PS 198K Reso A Cafeteria Up,111,2022-03-09 00:00:00,Architecture & Engineering Division,Architect
+"Lehn, Stephanie",Director,6,024700003,NYCSCA PS 198K Reso A Cafeteria Up,124,2018-09-12 00:00:00,Architecture & Engineering Division,Architect
+"Martinez, Matthew",Technical Designer,2,024700003,NYCSCA PS 198K Reso A Cafeteria Up,27,2023-06-12 00:00:00,Architecture & Engineering Division,Plumbing/Fire Protection
+"Park, Anna",Project Designer,3,024700003,NYCSCA PS 198K Reso A Cafeteria Up,184,2022-03-21 00:00:00,Architecture & Engineering Division,Architect
+"Skodi, Samuel",Designer,1,024700003,NYCSCA PS 198K Reso A Cafeteria Up,6,2024-05-28 00:00:00,Architecture & Engineering Division,Electrical
+"Snow, Ronald K",Director,33,024700003,NYCSCA PS 198K Reso A Cafeteria Up,16,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Zongwe, Kiwele",Sr. Designer,4,024700003,NYCSCA PS 198K Reso A Cafeteria Up,8,2021-04-26 00:00:00,Architecture & Engineering Division,Electrical
+"Battaglia, Frank",Technical Designer,2,024700002,NYCSCA PS 207Q Rockwood Park,25,2023-06-12 00:00:00,Architecture & Engineering Division,Mechanical
+"Berninger, Kyle",Sr. Lead Engineer,11,024700002,NYCSCA PS 207Q Rockwood Park,31,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Bueno, Maria DeDomenico",Sr. Project Designer,7,024700002,NYCSCA PS 207Q Rockwood Park,525,2017-09-11 00:00:00,Architecture & Engineering Division,Architect
+"Conlon, Timothy",Vice President,3,024700002,NYCSCA PS 207Q Rockwood Park,23,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Dzeletovic, Darko",Sr. Lead Project Designer,7,024700002,NYCSCA PS 207Q Rockwood Park,34,2018-03-26 00:00:00,Architecture & Engineering Division,Plumbing/Fire Protection
+"Geraldi Lopes, Henrique",Technical Designer,3,024700002,NYCSCA PS 207Q Rockwood Park,16,2022-07-25 00:00:00,Architecture & Engineering Division,Mechanical
+"Hui, Samantha",Technical Designer,2,024700002,NYCSCA PS 207Q Rockwood Park,52,2022-12-12 00:00:00,Architecture & Engineering Division,Architect
+"Khan, Rifah",Project Designer,3,024700002,NYCSCA PS 207Q Rockwood Park,9,2022-03-09 00:00:00,Architecture & Engineering Division,Architect
+"Lehn, Stephanie",Director,6,024700002,NYCSCA PS 207Q Rockwood Park,200,2018-09-12 00:00:00,Architecture & Engineering Division,Architect
+"Martinez, Matthew",Technical Designer,2,024700002,NYCSCA PS 207Q Rockwood Park,40,2023-06-12 00:00:00,Architecture & Engineering Division,Plumbing/Fire Protection
+"Osborne Jr, Harry T",Project Designer,4,024700002,NYCSCA PS 207Q Rockwood Park,825,2021-03-08 00:00:00,Architecture & Engineering Division,Architect
+"Park, Anna",Project Designer,3,024700002,NYCSCA PS 207Q Rockwood Park,1050,2022-03-21 00:00:00,Architecture & Engineering Division,Architect
+"Phillips, David",Sr. Lead Project Designer,2,024700002,NYCSCA PS 207Q Rockwood Park,17,2022-08-22 00:00:00,Architecture & Engineering Division,Architect
+"Snow, Ronald K",Director,33,024700002,NYCSCA PS 207Q Rockwood Park,9,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Berninger, Kyle",Sr. Lead Engineer,11,024700001,NYCSCA PS 317X  Bronx School,306,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Chen, Fred",Director,9,024700001,NYCSCA PS 317X  Bronx School,107,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Conlon, Timothy",Vice President,3,024700001,NYCSCA PS 317X  Bronx School,31,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Dimitrov-Conlon, Helena",Project Controls Manager,27,024700001,NYCSCA PS 317X  Bronx School,184,1997-09-10 00:00:00,Operations Support,Project Controls
+"Meharg, David",Director,8,024700001,NYCSCA PS 317X  Bronx School,158,2017-06-05 00:00:00,Architecture & Engineering Division,Electrical
+"Nassi, Gino P.",Director,25,024700001,NYCSCA PS 317X  Bronx School,9,2000-03-22 00:00:00,Architecture & Engineering Division,Mechanical
+"Ranft, Gregory",Director,12,024700001,NYCSCA PS 317X  Bronx School,36,2013-04-22 00:00:00,Architecture & Engineering Division,Structural
+"Shubiak, Eric",Sr. Project Controls Analyst,3,024700001,NYCSCA PS 317X  Bronx School,8,2021-12-01 00:00:00,Operations Support,Project Controls
+"Smith, Zachary",Lead Engineer,0,024700001,NYCSCA PS 317X  Bronx School,111,2025-01-20 00:00:00,Architecture & Engineering Division,Mechanical
+"Snow, Ronald K",Director,33,024700001,NYCSCA PS 317X  Bronx School,920,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Bueno, Maria DeDomenico",Sr. Project Designer,7,024700007,NYCSCA PS055 (Red Dot Assignment),54,2017-09-11 00:00:00,Architecture & Engineering Division,Architect
+"Calvi, Michael",Project Designer,2,024700007,NYCSCA PS055 (Red Dot Assignment),8,2023-05-22 00:00:00,Architecture & Engineering Division,Architect
+"Couvillion, Phillip",Sr. Lead Engineer,2,024700007,NYCSCA PS055 (Red Dot Assignment),182,2023-06-05 00:00:00,Architecture & Engineering Division,Structural
+"Hui, Samantha",Technical Designer,2,024700007,NYCSCA PS055 (Red Dot Assignment),56,2022-12-12 00:00:00,Architecture & Engineering Division,Architect
+"Khan, Rifah",Project Designer,3,024700007,NYCSCA PS055 (Red Dot Assignment),90,2022-03-09 00:00:00,Architecture & Engineering Division,Architect
+"Lehn, Stephanie",Director,6,024700007,NYCSCA PS055 (Red Dot Assignment),20,2018-09-12 00:00:00,Architecture & Engineering Division,Architect
+"Park, Anna",Project Designer,3,024700007,NYCSCA PS055 (Red Dot Assignment),24,2022-03-21 00:00:00,Architecture & Engineering Division,Architect
+"Patnaik, Rosali",Sr. Designer,1,024700007,NYCSCA PS055 (Red Dot Assignment),24,2024-07-15 00:00:00,Architecture & Engineering Division,Architect
+"Phillips, David",Sr. Lead Project Designer,2,024700007,NYCSCA PS055 (Red Dot Assignment),14,2022-08-22 00:00:00,Architecture & Engineering Division,Architect
+"Bueno, Maria DeDomenico",Sr. Project Designer,7,024700006,NYCSCA Q690,125,2017-09-11 00:00:00,Architecture & Engineering Division,Architect
+"Hui, Samantha",Technical Designer,2,024700006,NYCSCA Q690,167,2022-12-12 00:00:00,Architecture & Engineering Division,Architect
+"Khan, Rifah",Project Designer,3,024700006,NYCSCA Q690,271,2022-03-09 00:00:00,Architecture & Engineering Division,Architect
+"Lehn, Stephanie",Director,6,024700006,NYCSCA Q690,33,2018-09-12 00:00:00,Architecture & Engineering Division,Architect
+"Park, Anna",Project Designer,3,024700006,NYCSCA Q690,167,2022-03-21 00:00:00,Architecture & Engineering Division,Architect
+"Phillips, David",Sr. Lead Project Designer,2,024700006,NYCSCA Q690,45,2022-08-22 00:00:00,Architecture & Engineering Division,Architect
+"Bird, Eric",Crew Chief,10,031710014,NYMC- Proposed Road DO NOT TOUCH TH,8,2014-10-20 00:00:00,Surveying,SD - Warren
+"Espasa, Robert",Vice President,11,031710014,NYMC- Proposed Road DO NOT TOUCH TH,25,2013-11-04 00:00:00,Site/Civil Eng & Landscape Arch,SC&LA - NJ Warren
+"Friedman, Brian J.",Project Coordinator,14,031710014,NYMC- Proposed Road DO NOT TOUCH TH,14,2011-04-04 00:00:00,Surveying,SD - Warren
+"Yan, Chao",Lead Project Designer,29,031710014,NYMC- Proposed Road DO NOT TOUCH TH,8,1996-03-04 00:00:00,Site/Civil Eng & Landscape Arch,SC&LA - NJ Warren
+"D'Agostino, Brian G.",Sr. LSRP,19,047350006,Park Elementary Envr. Assessment,5,2006-05-01 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Lewis, Melissa A.",GIS Analyst,19,047350006,Park Elementary Envr. Assessment,8,2006-07-05 00:00:00,Environmental & Energy Division,GIS
+"Balto, Daniel",Sr. Director,6,063640013,Passaic Cty CC - Win. Rep. Eval.,40,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Bird, Eric",Crew Chief,10,049210007,Paterson - Public School,16,2014-10-20 00:00:00,Surveying,SD - Warren
+"Friedman, Brian J.",Project Coordinator,14,049210007,Paterson - Public School,11,2011-04-04 00:00:00,Surveying,SD - Warren
+"Joshnick, Brad P",Vice President,34,049210007,Paterson - Public School,36,1991-04-01 00:00:00,Surveying,SD - Warren
+"Merten, Gregory J.",Sr. Project Manager,15,054510001,Paterson 16- Daylight Credit,18,2009-11-16 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,061380003,Paterson PS - MLK Education Complex,5,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Couvillion, Phillip",Sr. Lead Engineer,2,061380003,Paterson PS - MLK Education Complex,79,2023-06-05 00:00:00,Architecture & Engineering Division,Structural
+"Alexander, Patrick",Sr. Designer,6,061380002,Paterson PS-21 Green School Yard,8,2018-08-27 00:00:00,Site/Civil Eng & Landscape Arch,Landscape Architect
+"Balto, Daniel",Sr. Director,6,061380002,Paterson PS-21 Green School Yard,10,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Bird, Eric",Crew Chief,10,061380002,Paterson PS-21 Green School Yard,14,2014-10-20 00:00:00,Surveying,SD - Warren
+"Chiappa, Tracy Ann",Project Controls Analyst,40,061380002,Paterson PS-21 Green School Yard,5,1985-06-01 00:00:00,Operations Support,Project Controls
+"D'Agostino, Brian G.",Sr. LSRP,19,061380002,Paterson PS-21 Green School Yard,169,2006-05-01 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Dunn, Meghan",Designer,1,061380002,Paterson PS-21 Green School Yard,12,2023-10-30 00:00:00,Site/Civil Eng & Landscape Arch,Landscape Architect
+"Exposito, Rita",Lead Designer,11,061380002,Paterson PS-21 Green School Yard,10,2014-07-28 00:00:00,Environmental & Energy Division,Energy
+"Friedman, Brian J.",Project Coordinator,14,061380002,Paterson PS-21 Green School Yard,37,2011-04-04 00:00:00,Surveying,SD - Warren
+"Grablauskas, Jeremy",Technical Scientist,3,061380002,Paterson PS-21 Green School Yard,15,2022-08-15 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Guevara Gonzalez, Wendy",Project Engineer,3,061380002,Paterson PS-21 Green School Yard,163,2022-02-14 00:00:00,Site/Civil Eng & Landscape Arch,SC&LA - NJ Warren
+"Joshnick, Brad P",Vice President,34,061380002,Paterson PS-21 Green School Yard,5,1991-04-01 00:00:00,Surveying,SD - Warren
+"Luksik, Wojciech",Crew Chief,3,061380002,Paterson PS-21 Green School Yard,25,2021-11-15 00:00:00,Surveying,SD - Warren
+"Montana, Adolf",Sr. Project Manager,26,061380002,Paterson PS-21 Green School Yard,74,1998-11-16 00:00:00,Site/Civil Eng & Landscape Arch,SC&LA - NJ Warren
+"Rodriguez, Ryan",Project Designer,3,061380002,Paterson PS-21 Green School Yard,83,2022-08-01 00:00:00,Site/Civil Eng & Landscape Arch,Landscape Architect
+"Salinas, Luis M.",Executive Vice President,17,061380002,Paterson PS-21 Green School Yard,6,2007-11-05 00:00:00,Environmental & Energy Division,Division Manager
+"Trovato, Christopher",Technical Designer,0,061380002,Paterson PS-21 Green School Yard,9,2024-09-03 00:00:00,Site/Civil Eng & Landscape Arch,SC&LA - NJ Warren
+"Balto, Daniel",Sr. Director,6,061380005,Paterson PS-21 Site Investigation,6,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"D'Agostino, Brian G.",Sr. LSRP,19,061380005,Paterson PS-21 Site Investigation,147,2006-05-01 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Ferfecki, Brian",Survey Technician,4,061380005,Paterson PS-21 Site Investigation,6,2021-06-21 00:00:00,Surveying,SD - Warren
+"Salinas, Luis M.",Executive Vice President,17,061380005,Paterson PS-21 Site Investigation,6,2007-11-05 00:00:00,Environmental & Energy Division,Division Manager
+"Shulack, Joseph",Project Scientist,1,061380005,Paterson PS-21 Site Investigation,41,2024-07-15 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Balto, Daniel",Sr. Director,6,061380001,Paterson PS-6 Masonry Repairs,87,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Linda",Lead Designer,3,061380001,Paterson PS-6 Masonry Repairs,6,2022-08-15 00:00:00,Architecture & Engineering Division,Architect
+"Becica, Steve",Sr. Director,1,061380001,Paterson PS-6 Masonry Repairs,26,2024-03-27 00:00:00,Architecture & Engineering Division,Architect
+"Byrnes, Bridgette",Project Designer,2,061380001,Paterson PS-6 Masonry Repairs,41,2023-01-30 00:00:00,Architecture & Engineering Division,Architect
+"Dimitrov-Kuhl, Alex",Technical Designer,3,061380001,Paterson PS-6 Masonry Repairs,20,2022-03-21 00:00:00,Architecture & Engineering Division,Structural
+"Middleton, John",Sr. Director,1,061380001,Paterson PS-6 Masonry Repairs,123,2024-03-27 00:00:00,Architecture & Engineering Division,Mechanical
+"Ranft, Gregory",Director,12,061380001,Paterson PS-6 Masonry Repairs,6,2013-04-22 00:00:00,Architecture & Engineering Division,Structural
+"Reichert, George A",Sr. Director,45,061380001,Paterson PS-6 Masonry Repairs,11,1979-09-03 00:00:00,Architecture & Engineering Division,Structural
+"Berninger, Kyle",Sr. Lead Engineer,11,049210008,Paul Robeson School of the Arts,54,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Chen, Fred",Director,9,049210008,Paul Robeson School of the Arts,25,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Conlon, Timothy",Vice President,3,049210008,Paul Robeson School of the Arts,1284,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Dimitrov-Conlon, Helena",Project Controls Manager,27,049210008,Paul Robeson School of the Arts,65,1997-09-10 00:00:00,Operations Support,Project Controls
+"Dublin, Roy R.",Sr. Project BIM Technician,24,049210008,Paul Robeson School of the Arts,470,2001-01-29 00:00:00,Architecture & Engineering Division,Structural
+"Gonzalez, Angela",Sr. Lead Architect,11,049210008,Paul Robeson School of the Arts,2453,2014-01-06 00:00:00,Architecture & Engineering Division,Architect
+"Meharg, David",Director,8,049210008,Paul Robeson School of the Arts,57,2017-06-05 00:00:00,Architecture & Engineering Division,Electrical
+"Merten, Gregory J.",Sr. Project Manager,15,049210008,Paul Robeson School of the Arts,26,2009-11-16 00:00:00,Architecture & Engineering Division,Architect
+"Nassi, Gino P.",Director,25,049210008,Paul Robeson School of the Arts,40,2000-03-22 00:00:00,Architecture & Engineering Division,Mechanical
+"Pereira, Pedro M.",Lead Designer,27,049210008,Paul Robeson School of the Arts,279,1998-04-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Ranft, Gregory",Director,12,049210008,Paul Robeson School of the Arts,98,2013-04-22 00:00:00,Architecture & Engineering Division,Structural
+"Robertson, Stephen J.",Lead Project Designer,15,049210008,Paul Robeson School of the Arts,105,2010-01-11 00:00:00,Architecture & Engineering Division,Architect
+"Sgro, Stephen",Director,10,049210008,Paul Robeson School of the Arts,139,2015-07-01 00:00:00,Architecture & Engineering Division,Architect
+"Smith, Zachary",Lead Engineer,0,049210008,Paul Robeson School of the Arts,24,2025-01-20 00:00:00,Architecture & Engineering Division,Mechanical
+"Snow, Ronald K",Director,33,049210008,Paul Robeson School of the Arts,1004,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Battaglia, Frank",Technical Designer,2,063640017,Paulsboro Twp HVAC Upgrades,160,2023-06-12 00:00:00,Architecture & Engineering Division,Mechanical
+"Berninger, Kyle",Sr. Lead Engineer,11,063640017,Paulsboro Twp HVAC Upgrades,130,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Bustos Hernandez, Juan",Project Engineer,5,063640017,Paulsboro Twp HVAC Upgrades,14,2019-11-11 00:00:00,Architecture & Engineering Division,Structural
+"Chen, Fred",Director,9,063640017,Paulsboro Twp HVAC Upgrades,20,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Conlon, Timothy",Vice President,3,063640017,Paulsboro Twp HVAC Upgrades,9,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Couvillion, Phillip",Sr. Lead Engineer,2,063640017,Paulsboro Twp HVAC Upgrades,211,2023-06-05 00:00:00,Architecture & Engineering Division,Structural
+"Geraldi Lopes, Henrique",Technical Designer,3,063640017,Paulsboro Twp HVAC Upgrades,236,2022-07-25 00:00:00,Architecture & Engineering Division,Mechanical
+"Oselador, Sophia",Sr. Project Designer,7,063640017,Paulsboro Twp HVAC Upgrades,12,2018-06-04 00:00:00,Architecture & Engineering Division,Electrical
+"Zongwe, Kiwele",Sr. Designer,4,063640017,Paulsboro Twp HVAC Upgrades,142,2021-04-26 00:00:00,Architecture & Engineering Division,Electrical
+"Balto, Daniel",Sr. Director,6,063640014,PCCC - Partial Window Replacement,34,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Linda",Lead Designer,3,063640014,PCCC - Partial Window Replacement,14,2022-08-15 00:00:00,Architecture & Engineering Division,Architect
+"Byrnes, Bridgette",Project Designer,2,063640014,PCCC - Partial Window Replacement,128,2023-01-30 00:00:00,Architecture & Engineering Division,Architect
+"Robertson, Stephen J.",Lead Project Designer,15,063640014,PCCC - Partial Window Replacement,8,2010-01-11 00:00:00,Architecture & Engineering Division,Architect
+"Signorelli, Simone",Architect,1,063640014,PCCC - Partial Window Replacement,12,2024-07-15 00:00:00,Architecture & Engineering Division,Architect
+"Vergara, Lesly",Technical Designer,2,063640014,PCCC - Partial Window Replacement,12,2023-06-12 00:00:00,Architecture & Engineering Division,Architect
+"Brea, Jeisson",Sr. Designer,5,063640019,Piscataway Microgrid,14,2019-09-30 00:00:00,Architecture & Engineering Division,Structural
+"Couvillion, Phillip",Sr. Lead Engineer,2,063640019,Piscataway Microgrid,42,2023-06-05 00:00:00,Architecture & Engineering Division,Structural
+"Dublin, Roy R.",Sr. Project BIM Technician,24,063640019,Piscataway Microgrid,6,2001-01-29 00:00:00,Architecture & Engineering Division,Structural
+"Battaglia, Frank",Technical Designer,2,063640015,Piscataway Twp EV Chargers,22,2023-06-12 00:00:00,Architecture & Engineering Division,Mechanical
+"Bergamasco, Thomas J.",Sr. Designer,34,063640015,Piscataway Twp EV Chargers,16,1990-10-01 00:00:00,Architecture & Engineering Division,Water Resources
+"Chen, Fred",Director,9,063640015,Piscataway Twp EV Chargers,85,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Geraldi Lopes, Henrique",Technical Designer,3,063640015,Piscataway Twp EV Chargers,40,2022-07-25 00:00:00,Architecture & Engineering Division,Mechanical
+"Zongwe, Kiwele",Sr. Designer,4,063640015,Piscataway Twp EV Chargers,62,2021-04-26 00:00:00,Architecture & Engineering Division,Electrical
+"Alexander, Patrick",Sr. Designer,6,061380004,PPS - Multi School Landscape Design,24,2018-08-27 00:00:00,Site/Civil Eng & Landscape Arch,Landscape Architect
+"Dunn, Meghan",Designer,1,061380004,PPS - Multi School Landscape Design,7,2023-10-30 00:00:00,Site/Civil Eng & Landscape Arch,Landscape Architect
+"Ferfecki, Brian",Survey Technician,4,061380004,PPS - Multi School Landscape Design,7,2021-06-21 00:00:00,Surveying,SD - Warren
+"Lybeck, Erin",Lead Landscape Architect,9,061380004,PPS - Multi School Landscape Design,11,2015-10-07 00:00:00,Site/Civil Eng & Landscape Arch,Landscape Architect
+"Maher, Daniel",Sr. Director,11,061380004,PPS - Multi School Landscape Design,49,2013-08-30 00:00:00,Site/Civil Eng & Landscape Arch,Landscape Architect
+"Rodriguez, Ryan",Project Designer,3,061380004,PPS - Multi School Landscape Design,65,2022-08-01 00:00:00,Site/Civil Eng & Landscape Arch,Landscape Architect
+"Couvillion, Phillip",Sr. Lead Engineer,2,025520013,Ramapo Garage Extension,104,2023-06-05 00:00:00,Architecture & Engineering Division,Structural
+"Dimitrov-Kuhl, Alex",Technical Designer,3,025520013,Ramapo Garage Extension,22,2022-03-21 00:00:00,Architecture & Engineering Division,Structural
+"Robertson, Stephen J.",Lead Project Designer,15,025520013,Ramapo Garage Extension,8,2010-01-11 00:00:00,Architecture & Engineering Division,Architect
+"Snow, Ronald K",Director,33,025520013,Ramapo Garage Extension,10,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Carras, Matthew",Designer,1,088760005,Reutter ES Boiler Replacement,31,2024-06-10 00:00:00,Architecture & Engineering Division,Mechanical
+"Middleton, John",Sr. Director,1,088760005,Reutter ES Boiler Replacement,8,2024-03-27 00:00:00,Architecture & Engineering Division,Mechanical
+"Middleton, John",Sr. Director,1,067100001,Robert Waters ES Boiler Replacement,14,2024-03-27 00:00:00,Architecture & Engineering Division,Mechanical
+"Balto, Daniel",Sr. Director,6,028940008,Rowan - Bole Hall Structural Eval.,5,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,028940007,Rowan- Mullica Hall Structural Eval,15,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Becica, Steve",Sr. Director,1,028940007,Rowan- Mullica Hall Structural Eval,5,2024-03-27 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,028940006,Rowan-CHSS Bldg.Prog.Services,378,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Kahn, Elisabeth",Lead Architect,1,028940006,Rowan-CHSS Bldg.Prog.Services,39,2024-03-27 00:00:00,Architecture & Engineering Division,Architect
+"Stanley, Nicole",Lead Marketing Specialist,7,028940006,Rowan-CHSS Bldg.Prog.Services,6,2018-02-26 00:00:00,Operations Support,Marketing
+"Meharg, David",Director,8,016580002,RU 33 Knightsbridge EM Generator,246,2017-06-05 00:00:00,Architecture & Engineering Division,Electrical
+"Oselador, Sophia",Sr. Project Designer,7,016580002,RU 33 Knightsbridge EM Generator,16,2018-06-04 00:00:00,Architecture & Engineering Division,Electrical
+"Pradhan, Amal G.",Sr. Project Designer,24,016580002,RU 33 Knightsbridge EM Generator,83,2000-10-30 00:00:00,Architecture & Engineering Division,Architect
+"Prontnicki, Peter",Project Designer,7,016580002,RU 33 Knightsbridge EM Generator,9,2018-03-05 00:00:00,Architecture & Engineering Division,Mechanical
+"Snow, Ronald K",Director,33,016580002,RU 33 Knightsbridge EM Generator,128,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Berninger, Kyle",Sr. Lead Engineer,11,021950003,RU Honors College Dorm,12,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Conlon, Timothy",Vice President,3,021950003,RU Honors College Dorm,271,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Smith, Zachary",Lead Engineer,0,021950003,RU Honors College Dorm,11,2025-01-20 00:00:00,Architecture & Engineering Division,Mechanical
+"Snow, Ronald K",Director,33,021950003,RU Honors College Dorm,104,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Balto, Daniel",Sr. Director,6,016580004,Rutgers - Waksman Hall - FAS,60,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Dzeletovic, Darko",Sr. Lead Project Designer,7,016580004,Rutgers - Waksman Hall - FAS,68,2018-03-26 00:00:00,Architecture & Engineering Division,Plumbing/Fire Protection
+"Nassi, Gino P.",Director,25,016580004,Rutgers - Waksman Hall - FAS,33,2000-03-22 00:00:00,Architecture & Engineering Division,Mechanical
+"Pereira, Pedro M.",Lead Designer,27,016580004,Rutgers - Waksman Hall - FAS,81,1998-04-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Snow, Ronald K",Director,33,016580004,Rutgers - Waksman Hall - FAS,80,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Chen, Fred",Director,9,016580001,Rutgers 33 Knightsbridge Generator,9,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Snow, Ronald K",Director,33,016580001,Rutgers 33 Knightsbridge Generator,85,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Balto, Daniel",Sr. Director,6,016580005,Rutgers Feas. Study 180 W Market St,16,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Conlon, Timothy",Vice President,3,016580005,Rutgers Feas. Study 180 W Market St,53,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Gonzalez, Angela",Sr. Lead Architect,11,016580005,Rutgers Feas. Study 180 W Market St,119,2014-01-06 00:00:00,Architecture & Engineering Division,Architect
+"Prontnicki, Peter",Project Designer,7,016580005,Rutgers Feas. Study 180 W Market St,8,2018-03-05 00:00:00,Architecture & Engineering Division,Mechanical
+"Vergara, Lesly",Technical Designer,2,016580005,Rutgers Feas. Study 180 W Market St,22,2023-06-12 00:00:00,Architecture & Engineering Division,Architect
+"Espasa, Robert",Vice President,11,037780005,Rutgers Hillel Construction Phase,34,2013-11-04 00:00:00,Site/Civil Eng & Landscape Arch,SC&LA - NJ Warren
+"Hermann, Craig",Sr. Project Manager,10,037780005,Rutgers Hillel Construction Phase,22,2015-04-13 00:00:00,Site/Civil Eng & Landscape Arch,SC&LA - NJ Warren
+"Lybeck, Erin",Lead Landscape Architect,9,084510001,SCA PS X515,48,2015-10-07 00:00:00,Site/Civil Eng & Landscape Arch,Landscape Architect
+"Maher, Daniel",Sr. Director,11,084510001,SCA PS X515,11,2013-08-30 00:00:00,Site/Civil Eng & Landscape Arch,Landscape Architect
+"Dublin, Roy R.",Sr. Project BIM Technician,24,063640012,SCC - Cooling Tower Replacement,5,2001-01-29 00:00:00,Architecture & Engineering Division,Structural
+"Chen, Fred",Director,9,015060014,Seton Hall Arc Flash Study,24,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Snow, Ronald K",Director,33,015060014,Seton Hall Arc Flash Study,29,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Osborne, Harry T.",Executive Vice President,6,016580006,SHI Stadium Premium Seating Study,45,2018-09-04 00:00:00,Architecture & Engineering Division,Division Manager
+"Robertson, Stephen J.",Lead Project Designer,15,016580006,SHI Stadium Premium Seating Study,422,2010-01-11 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,015710010,SIT - 2 Switch Gear Sta. Renderings,18,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,015710011,SIT - Burchard Chiller Upgrades,90,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Berninger, Kyle",Sr. Lead Engineer,11,015710011,SIT - Burchard Chiller Upgrades,100,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Chen, Fred",Director,9,015710011,SIT - Burchard Chiller Upgrades,9,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Conlon, Timothy",Vice President,3,015710011,SIT - Burchard Chiller Upgrades,9,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Dimitrov-Kuhl, Alex",Technical Designer,3,015710011,SIT - Burchard Chiller Upgrades,27,2022-03-21 00:00:00,Architecture & Engineering Division,Structural
+"Dublin, Roy R.",Sr. Project BIM Technician,24,015710011,SIT - Burchard Chiller Upgrades,29,2001-01-29 00:00:00,Architecture & Engineering Division,Structural
+"Futey, John R.",Lead Project Designer,6,015710011,SIT - Burchard Chiller Upgrades,139,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Gonzalez, Angela",Sr. Lead Architect,11,015710011,SIT - Burchard Chiller Upgrades,147,2014-01-06 00:00:00,Architecture & Engineering Division,Architect
+"Oselador, Sophia",Sr. Project Designer,7,015710011,SIT - Burchard Chiller Upgrades,8,2018-06-04 00:00:00,Architecture & Engineering Division,Electrical
+"Prontnicki, Peter",Project Designer,7,015710011,SIT - Burchard Chiller Upgrades,220,2018-03-05 00:00:00,Architecture & Engineering Division,Mechanical
+"Ranft, Gregory",Director,12,015710011,SIT - Burchard Chiller Upgrades,14,2013-04-22 00:00:00,Architecture & Engineering Division,Structural
+"Zongwe, Kiwele",Sr. Designer,4,015710011,SIT - Burchard Chiller Upgrades,87,2021-04-26 00:00:00,Architecture & Engineering Division,Electrical
+"Balto, Daniel",Sr. Director,6,015710012,SIT- Fire Escape Assessment,9,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Reichert, George A",Sr. Director,45,015710012,SIT- Fire Escape Assessment,36,1979-09-03 00:00:00,Architecture & Engineering Division,Structural
+"Byrnes, Bridgette",Project Designer,2,015710013,SIT-EAS Bldg. Egress Study & Plans,46,2023-01-30 00:00:00,Architecture & Engineering Division,Architect
+"Gonzalez, Angela",Sr. Lead Architect,11,015710013,SIT-EAS Bldg. Egress Study & Plans,84,2014-01-06 00:00:00,Architecture & Engineering Division,Architect
+"Robertson, Stephen J.",Lead Project Designer,15,015710013,SIT-EAS Bldg. Egress Study & Plans,11,2010-01-11 00:00:00,Architecture & Engineering Division,Architect
+"Balto, Daniel",Sr. Director,6,015710009,SIT-Howe Ctr Elev Finish Upgrades,346,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Futey, John R.",Lead Project Designer,6,015710009,SIT-Howe Ctr Elev Finish Upgrades,11,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Kahn, Elisabeth",Lead Architect,1,088720001,Spragg ES Roof Replacement,20,2024-03-27 00:00:00,Architecture & Engineering Division,Architect
+"Middleton, John",Sr. Director,1,088720001,Spragg ES Roof Replacement,64,2024-03-27 00:00:00,Architecture & Engineering Division,Mechanical
+"Berninger, Kyle",Sr. Lead Engineer,11,059150009,St. Aedan's Assessment,21,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Chen, Fred",Director,9,059150009,St. Aedan's Assessment,6,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Cohen, Michael P",Sr. Vice President,42,059150009,St. Aedan's Assessment,18,1983-07-05 00:00:00,Architecture & Engineering Division,Structural
+"Dzeletovic, Darko",Sr. Lead Project Designer,7,059150009,St. Aedan's Assessment,49,2018-03-26 00:00:00,Architecture & Engineering Division,Plumbing/Fire Protection
+"Ranft, Gregory",Director,12,059150009,St. Aedan's Assessment,23,2013-04-22 00:00:00,Architecture & Engineering Division,Structural
+"Stanley, Nicole",Lead Marketing Specialist,7,059150009,St. Aedan's Assessment,6,2018-02-26 00:00:00,Operations Support,Marketing
+"Zongwe, Kiwele",Sr. Designer,4,059150009,St. Aedan's Assessment,25,2021-04-26 00:00:00,Architecture & Engineering Division,Electrical
+"Battaglia, Frank",Technical Designer,2,025520012,Student Ctr.Transformer Replacement,64,2023-06-12 00:00:00,Architecture & Engineering Division,Mechanical
+"Bergamasco, Thomas J.",Sr. Designer,34,025520012,Student Ctr.Transformer Replacement,5,1990-10-01 00:00:00,Architecture & Engineering Division,Water Resources
+"Berninger, Kyle",Sr. Lead Engineer,11,025520012,Student Ctr.Transformer Replacement,6,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Chen, Fred",Director,9,025520012,Student Ctr.Transformer Replacement,16,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Chiaro, Christopher",Project Designer,2,025520012,Student Ctr.Transformer Replacement,55,2023-06-05 00:00:00,Architecture & Engineering Division,Structural
+"Compagnino, Michael",Technical Designer,1,025520012,Student Ctr.Transformer Replacement,19,2023-08-28 00:00:00,Architecture & Engineering Division,Electrical
+"Dublin, Roy R.",Sr. Project BIM Technician,24,025520012,Student Ctr.Transformer Replacement,27,2001-01-29 00:00:00,Architecture & Engineering Division,Structural
+"Kapferer, Lori",Sr. Project Engineer,2,025520012,Student Ctr.Transformer Replacement,19,2022-11-07 00:00:00,Site/Civil Eng & Landscape Arch,SC&LA - NJ Warren
+"Meharg, David",Director,8,025520012,Student Ctr.Transformer Replacement,133,2017-06-05 00:00:00,Architecture & Engineering Division,Electrical
+"Oselador, Sophia",Sr. Project Designer,7,025520012,Student Ctr.Transformer Replacement,10,2018-06-04 00:00:00,Architecture & Engineering Division,Electrical
+"Ranft, Gregory",Director,12,025520012,Student Ctr.Transformer Replacement,6,2013-04-22 00:00:00,Architecture & Engineering Division,Structural
+"Zongwe, Kiwele",Sr. Designer,4,025520012,Student Ctr.Transformer Replacement,39,2021-04-26 00:00:00,Architecture & Engineering Division,Electrical
+"Fox, Alan",Lead Engineer,4,087220001,SUNY Stony Brook Tabler Quad,111,2021-02-16 00:00:00,Site/Civil Eng & Landscape Arch,Other SC&LA
+"Hinds, Jerome",Sr. Landscape Architect,9,087220001,SUNY Stony Brook Tabler Quad,191,2016-06-27 00:00:00,Site/Civil Eng & Landscape Arch,Landscape Architect
+"Maher, Daniel",Sr. Director,11,087220001,SUNY Stony Brook Tabler Quad,24,2013-08-30 00:00:00,Site/Civil Eng & Landscape Arch,Landscape Architect
+"Melaas Jr., Jason",Technical Designer,2,087220001,SUNY Stony Brook Tabler Quad,182,2023-06-05 00:00:00,Site/Civil Eng & Landscape Arch,Other SC&LA
+"Ranft, Gregory",Director,12,087220001,SUNY Stony Brook Tabler Quad,11,2013-04-22 00:00:00,Architecture & Engineering Division,Structural
+"Rodriguez, Harold",Project Designer,7,087220001,SUNY Stony Brook Tabler Quad,474,2018-03-26 00:00:00,Site/Civil Eng & Landscape Arch,Other SC&LA
+"Woram, Damian",Designer,1,087220001,SUNY Stony Brook Tabler Quad,20,2023-09-25 00:00:00,Site/Civil Eng & Landscape Arch,Other SC&LA
+"Xie, Xiaohui",Lead Engineer,8,087220001,SUNY Stony Brook Tabler Quad,22,2017-03-06 00:00:00,Architecture & Engineering Division,Structural
+"Petroni, Marcelo P.",Project Coordinator,18,049210003,Survey & Layout for ELLIOTT SCHOOL,15,2007-04-16 00:00:00,Surveying,SD - Warren
+"Battaglia, Frank",Technical Designer,2,063640021,Troy HS & IS Upgrades,6,2023-06-12 00:00:00,Architecture & Engineering Division,Mechanical
+"Berninger, Kyle",Sr. Lead Engineer,11,063640021,Troy HS & IS Upgrades,24,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Couvillion, Phillip",Sr. Lead Engineer,2,063640021,Troy HS & IS Upgrades,10,2023-06-05 00:00:00,Architecture & Engineering Division,Structural
+"Geraldi Lopes, Henrique",Technical Designer,3,063640021,Troy HS & IS Upgrades,88,2022-07-25 00:00:00,Architecture & Engineering Division,Mechanical
+"Xie, Xiaohui",Lead Engineer,8,063640021,Troy HS & IS Upgrades,58,2017-03-06 00:00:00,Architecture & Engineering Division,Structural
+"Zongwe, Kiwele",Sr. Designer,4,063640021,Troy HS & IS Upgrades,13,2021-04-26 00:00:00,Architecture & Engineering Division,Electrical
+"Balto, Daniel",Sr. Director,6,010900047,Union City Emerson Middle School,16,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Gacek, Sylvia",BIM Manager,8,010900047,Union City Emerson Middle School,21,2017-07-03 00:00:00,Architecture & Engineering Division,Architect
+"Gonzalez, Angela",Sr. Lead Architect,11,010900047,Union City Emerson Middle School,54,2014-01-06 00:00:00,Architecture & Engineering Division,Architect
+"Berninger, Kyle",Sr. Lead Engineer,11,063640004,Union High School Gym HVAC and CHP,32,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Chen, Fred",Director,9,063640004,Union High School Gym HVAC and CHP,15,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Conlon, Timothy",Vice President,3,063640004,Union High School Gym HVAC and CHP,11,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Meharg, David",Director,8,063640004,Union High School Gym HVAC and CHP,12,2017-06-05 00:00:00,Architecture & Engineering Division,Electrical
+"Berninger, Kyle",Sr. Lead Engineer,11,063640008,Union HS & HCES CD's,321,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Chen, Fred",Director,9,063640008,Union HS & HCES CD's,127,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Dublin, Roy R.",Sr. Project BIM Technician,24,063640008,Union HS & HCES CD's,25,2001-01-29 00:00:00,Architecture & Engineering Division,Structural
+"Dzeletovic, Darko",Sr. Lead Project Designer,7,063640008,Union HS & HCES CD's,7,2018-03-26 00:00:00,Architecture & Engineering Division,Plumbing/Fire Protection
+"Prontnicki, Peter",Project Designer,7,063640008,Union HS & HCES CD's,7,2018-03-05 00:00:00,Architecture & Engineering Division,Mechanical
+"Ranft, Gregory",Director,12,063640008,Union HS & HCES CD's,11,2013-04-22 00:00:00,Architecture & Engineering Division,Structural
+"Snow, Ronald K",Director,33,063640008,Union HS & HCES CD's,5,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Zongwe, Kiwele",Sr. Designer,4,063640008,Union HS & HCES CD's,43,2021-04-26 00:00:00,Architecture & Engineering Division,Electrical
+"Berninger, Kyle",Sr. Lead Engineer,11,063640011,Union Twp- Phase 3 HVAC,7,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Snow, Ronald K",Director,33,030150006,University Hall AV Upgrades,47,1992-04-13 00:00:00,Architecture & Engineering Division,Electrical
+"Chen, Fred",Director,9,059150003,W.Campus Elect.Dist.Capital Improve,36,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Dzierzanowski, Agnes H",Lead Project Controls Analyst,31,K41900001,WEST CAMPUS LSRP DO NOT TOUCH TH,7,1993-08-30 00:00:00,Operations Support,Project Controls
+"Elsea, Jarrett",Lead Project Scientist,11,K41900001,WEST CAMPUS LSRP DO NOT TOUCH TH,136,2014-03-19 00:00:00,Environmental & Energy Division,Remediation So Cherry Hill
+"Maravelias, Stratis",Director,12,K41900001,WEST CAMPUS LSRP DO NOT TOUCH TH,1023,2013-04-29 00:00:00,Environmental & Energy Division,Remediation So Wall
+"Salinas, Luis M.",Executive Vice President,17,K41900001,WEST CAMPUS LSRP DO NOT TOUCH TH,34,2007-11-05 00:00:00,Environmental & Energy Division,Division Manager
+"Chen, Fred",Director,9,059150006,West Campus New Electrical Services,152,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Cohen, Michael P",Sr. Vice President,42,059150006,West Campus New Electrical Services,11,1983-07-05 00:00:00,Architecture & Engineering Division,Structural
+"Meharg, David",Director,8,059150006,West Campus New Electrical Services,41,2017-06-05 00:00:00,Architecture & Engineering Division,Electrical
+"Zongwe, Kiwele",Sr. Designer,4,059150006,West Campus New Electrical Services,7,2021-04-26 00:00:00,Architecture & Engineering Division,Electrical
+"Balto, Daniel",Sr. Director,6,063640006,West Deptford Greenfield ES Study,60,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Futey, John R.",Lead Project Designer,6,063640006,West Deptford Greenfield ES Study,65,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Berninger, Kyle",Sr. Lead Engineer,11,063640002,West Windsor Design Development,716,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Chen, Fred",Director,9,063640002,West Windsor Design Development,172,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Conlon, Timothy",Vice President,3,063640002,West Windsor Design Development,125,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Merten, Gregory J.",Sr. Project Manager,15,063640002,West Windsor Design Development,10,2009-11-16 00:00:00,Architecture & Engineering Division,Architect
+"Oselador, Sophia",Sr. Project Designer,7,063640002,West Windsor Design Development,58,2018-06-04 00:00:00,Architecture & Engineering Division,Electrical
+"Prontnicki, Peter",Project Designer,7,063640002,West Windsor Design Development,29,2018-03-05 00:00:00,Architecture & Engineering Division,Mechanical
+"Ranft, Gregory",Director,12,063640002,West Windsor Design Development,74,2013-04-22 00:00:00,Architecture & Engineering Division,Structural
+"Zongwe, Kiwele",Sr. Designer,4,063640002,West Windsor Design Development,53,2021-04-26 00:00:00,Architecture & Engineering Division,Electrical
+"Battaglia, Frank",Technical Designer,2,063640022,West Windsor Phase 2 HVAC Upgrades,103,2023-06-12 00:00:00,Architecture & Engineering Division,Mechanical
+"Berninger, Kyle",Sr. Lead Engineer,11,063640022,West Windsor Phase 2 HVAC Upgrades,111,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Carras, Matthew",Designer,1,063640022,West Windsor Phase 2 HVAC Upgrades,172,2024-06-10 00:00:00,Architecture & Engineering Division,Mechanical
+"Couvillion, Phillip",Sr. Lead Engineer,2,063640022,West Windsor Phase 2 HVAC Upgrades,7,2023-06-05 00:00:00,Architecture & Engineering Division,Structural
+"Dimitrov-Kuhl, Alex",Technical Designer,3,063640022,West Windsor Phase 2 HVAC Upgrades,16,2022-03-21 00:00:00,Architecture & Engineering Division,Structural
+"Salib, Peter",Project Designer,1,063640022,West Windsor Phase 2 HVAC Upgrades,23,2024-06-24 00:00:00,Architecture & Engineering Division,Electrical
+"Zongwe, Kiwele",Sr. Designer,4,063640022,West Windsor Phase 2 HVAC Upgrades,154,2021-04-26 00:00:00,Architecture & Engineering Division,Electrical
+"Cohen, Michael P",Sr. Vice President,42,059150008,Whelan Hall HVAC Upgrades,7,1983-07-05 00:00:00,Architecture & Engineering Division,Structural
+"Conlon, Timothy",Vice President,3,059150008,Whelan Hall HVAC Upgrades,17,2021-12-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Battaglia, Frank",Technical Designer,2,063640016,Willingboro Library HVAC Reno,229,2023-06-12 00:00:00,Architecture & Engineering Division,Mechanical
+"Berninger, Kyle",Sr. Lead Engineer,11,063640016,Willingboro Library HVAC Reno,112,2014-01-13 00:00:00,Architecture & Engineering Division,Mechanical
+"Dzeletovic, Darko",Sr. Lead Project Designer,7,063640016,Willingboro Library HVAC Reno,6,2018-03-26 00:00:00,Architecture & Engineering Division,Plumbing/Fire Protection
+"Polera, Maria",Project Designer,2,063640016,Willingboro Library HVAC Reno,47,2023-06-05 00:00:00,Architecture & Engineering Division,Architect
+"Zongwe, Kiwele",Sr. Designer,4,063640016,Willingboro Library HVAC Reno,50,2021-04-26 00:00:00,Architecture & Engineering Division,Electrical
+"Antony, Dorothy",Project Designer,5,063640007,WMUA ESIP Program,19,2019-09-09 00:00:00,Architecture & Engineering Division,Water Resources
+"Balto, Linda",Lead Designer,3,063640007,WMUA ESIP Program,12,2022-08-15 00:00:00,Architecture & Engineering Division,Architect
+"Chen, Fred",Director,9,063640007,WMUA ESIP Program,11,2015-12-14 00:00:00,Architecture & Engineering Division,Electrical
+"Lewis, Melissa A.",GIS Analyst,19,063640007,WMUA ESIP Program,23,2006-07-05 00:00:00,Environmental & Energy Division,GIS
+"Polera, Maria",Project Designer,2,063640007,WMUA ESIP Program,62,2023-06-05 00:00:00,Architecture & Engineering Division,Architect
+"Smith, Sandra M.",Sr. Lead Engineer,12,063640007,WMUA ESIP Program,244,2013-04-29 00:00:00,Architecture & Engineering Division,Water Resources
+"Smith, Sandra M.",Sr. Lead Engineer,12,063640003,WMUA NJ Ibank Loan Assistance,82,2013-04-29 00:00:00,Architecture & Engineering Division,Water Resources
+"Balto, Daniel",Sr. Director,6,057070001,WSSC Elevator Project,10,2019-02-11 00:00:00,Architecture & Engineering Division,Architect
+"Futey, John R.",Lead Project Designer,6,057070001,WSSC Elevator Project,100,2019-04-15 00:00:00,Architecture & Engineering Division,Architect
+"Ranft, Gregory",Director,12,057070001,WSSC Elevator Project,11,2013-04-22 00:00:00,Architecture & Engineering Division,Structural

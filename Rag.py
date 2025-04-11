@@ -53,7 +53,7 @@ def ask_ollama(prompt, model='llama3'):
 
 def main():
 
-    DATA_FILE = 'L:/Baze_project/Projects that Have been worked on in the last 8 years and the active employees.csv'  # Change to the actual file path
+    DATA_FILE = 'Baze_project/Projects that Have been worked on in the last 8 years and the active employees.csv'  # Change to the actual file path
 
     # Cache API key loading
     @st.cache_data
@@ -182,7 +182,7 @@ def main():
     else:
         st.warning("No resumes found for the employees.")
 
-    project_folder = 'C:/Users/ZBa/Capstone/Capstone/_Marketing Project Sheets'
+    project_folder = 'Baze_project/_Marketing Project Sheets'
 
     project_pdfs_found = {}
     for file in top_file:

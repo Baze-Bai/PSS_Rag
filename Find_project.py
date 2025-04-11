@@ -2,9 +2,9 @@ import pandas as pd
 import os
 
 # Define the paths for resumes and project PDFs
-RESUMES_FOLDER = 'L:/Baze_project/Resumes' 
-PROJECTS_FOLDER = 'L:/Baze_project/_Marketing Project Sheets' 
-DATA_FILE = 'L:/Baze_project/Projects that Have been worked on in the last 8 years and the active employees.csv'  # Change to the actual file path
+RESUMES_FOLDER = 'Baze_project/Resumes' 
+PROJECTS_FOLDER = 'Baze_project/_Marketing Project Sheets' 
+DATA_FILE = 'Baze_project/Projects that Have been worked on in the last 8 years and the active employees.csv'  # Change to the actual file path
 
 # Function to filter employees and hours based on project number
 def get_filtered_data_by_projects(proj_numbers, df):
