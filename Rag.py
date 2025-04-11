@@ -18,7 +18,7 @@ def ask_ds(prompt):
     try:
         # Call the generate method from the ollama library
         response = ollama.generate(
-            model="deepseek-r1",  # Use the deepseek model
+            model="deepseek-r1:14b",  # Use the deepseek model
             prompt=prompt,
             options={
                 "temperature": 0.15,
@@ -141,7 +141,7 @@ def main():
         prompt = f"Answer the user's questions based on the following documentation.\ndocument content:\n{context_text}\n\nquestion: {question}\n"
 
         response = ollama.generate(
-            model="Llama3",   # e.g., "llama3.2" or your custom model name
+            model="llama3",   # e.g., "llama3.2" or your custom model name
             prompt=prompt
         )
         
