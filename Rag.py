@@ -152,7 +152,7 @@ def main():
         
         answer_text += "\n LLM judge: \n" + "\n"
 
-        judge_prompt = f"This is the question user ask:{prompt}; \n\nHere is the answer from LLM{generated_text}; \n\nplease judge the quality of the answer based on the question, rate the answer from 1~100 for each part, 100 represents best, while 1 represents worst, 100 represents best.."
+        judge_prompt = f"This is the question user ask:{prompt}; \n\nHere is the answer from LLM{generated_text}; \n\nplease judge the Accuracy, Clarity and Helpfulness of the answer based on the question, rate the answer from 1~100 for each part, 100 represents best, while 1 represents worst, 100 represents best.."
         
         judge_text = ask_ds(judge_prompt)
 
