@@ -3,3 +3,1804 @@ Traceback (most recent call last):
   File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 40, in _initialize_client
     raise ValueError(f"Missing required configuration: {', '.join(missing)}")
 ValueError: Missing required configuration: AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY
+2025-06-26 05:36:19,399 - PSS_RAG - INFO - info:54 - AWS Bedrock client initialized successfully
+2025-06-26 05:36:19,405 - PSS_RAG - INFO - info:54 - Initializing PSS RAG System...
+2025-06-26 05:36:19,409 - PSS_RAG - INFO - info:54 - System initialized successfully
+2025-06-26 05:36:20,576 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:36:24,886 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:36:29,201 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:36:29,202 - PSS_RAG - ERROR - error:58 - Error generating response: RetryError[<Future at 0x22b71abef60 state=finished raised AccessDeniedException>]
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x22b71abef60 state=finished raised AccessDeniedException>]
+2025-06-26 05:36:29,215 - PSS_RAG - ERROR - error:58 - API call failed - bedrock_generate - 9.77s
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x22b71abef60 state=finished raised AccessDeniedException>]
+2025-06-26 05:36:29,216 - PSS_RAG - ERROR - error:58 - Application error: Event loop is closed
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\Rag.py", line 283, in run
+    self.setup_ui()
+  File "E:\AIPI561_final\PSS_Rag\Rag.py", line 109, in setup_ui
+    st.error("❌ LLM Service: Unhealthy")
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\metrics_util.py", line 443, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\elements\alert.py", line 103, in error
+    return self.dg._enqueue("alert", alert_proto)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\delta_generator.py", line 501, in _enqueue
+    _enqueue_message(msg)
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\scriptrunner_utils\script_run_context.py", line 297, in enqueue_message
+    ctx.enqueue(msg)
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\scriptrunner_utils\script_run_context.py", line 205, in enqueue
+    self._enqueue(msg_to_send)
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 413, in _enqueue_forward_msg
+    self.on_event.send(
+  File "C:\Users\HP\miniconda3\Lib\site-packages\blinker\base.py", line 279, in send
+    result = receiver(sender, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\app_session.py", line 518, in _on_scriptrunner_event
+    self._event_loop.call_soon_threadsafe(
+  File "C:\Users\HP\miniconda3\Lib\asyncio\base_events.py", line 844, in call_soon_threadsafe
+    self._check_closed()
+  File "C:\Users\HP\miniconda3\Lib\asyncio\base_events.py", line 545, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-06-26 05:36:29,224 - PSS_RAG - ERROR - error:58 - Fatal error: Event loop is closed
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\Rag.py", line 283, in run
+    self.setup_ui()
+  File "E:\AIPI561_final\PSS_Rag\Rag.py", line 109, in setup_ui
+    st.error("❌ LLM Service: Unhealthy")
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\metrics_util.py", line 443, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\elements\alert.py", line 103, in error
+    return self.dg._enqueue("alert", alert_proto)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\delta_generator.py", line 501, in _enqueue
+    _enqueue_message(msg)
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\scriptrunner_utils\script_run_context.py", line 297, in enqueue_message
+    ctx.enqueue(msg)
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\scriptrunner_utils\script_run_context.py", line 205, in enqueue
+    self._enqueue(msg_to_send)
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 413, in _enqueue_forward_msg
+    self.on_event.send(
+  File "C:\Users\HP\miniconda3\Lib\site-packages\blinker\base.py", line 279, in send
+    result = receiver(sender, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\app_session.py", line 518, in _on_scriptrunner_event
+    self._event_loop.call_soon_threadsafe(
+  File "C:\Users\HP\miniconda3\Lib\asyncio\base_events.py", line 844, in call_soon_threadsafe
+    self._check_closed()
+  File "C:\Users\HP\miniconda3\Lib\asyncio\base_events.py", line 545, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\Rag.py", line 349, in main
+    rag_system.run()
+  File "E:\AIPI561_final\PSS_Rag\Rag.py", line 343, in run
+    st.error(f"Application error: {str(e)}")
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\metrics_util.py", line 443, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\elements\alert.py", line 103, in error
+    return self.dg._enqueue("alert", alert_proto)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\delta_generator.py", line 501, in _enqueue
+    _enqueue_message(msg)
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\scriptrunner_utils\script_run_context.py", line 297, in enqueue_message
+    ctx.enqueue(msg)
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\scriptrunner_utils\script_run_context.py", line 205, in enqueue
+    self._enqueue(msg_to_send)
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 413, in _enqueue_forward_msg
+    self.on_event.send(
+  File "C:\Users\HP\miniconda3\Lib\site-packages\blinker\base.py", line 279, in send
+    result = receiver(sender, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\app_session.py", line 518, in _on_scriptrunner_event
+    self._event_loop.call_soon_threadsafe(
+  File "C:\Users\HP\miniconda3\Lib\asyncio\base_events.py", line 844, in call_soon_threadsafe
+    self._check_closed()
+  File "C:\Users\HP\miniconda3\Lib\asyncio\base_events.py", line 545, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-06-26 05:37:00,245 - PSS_RAG - INFO - info:54 - AWS Bedrock client initialized successfully
+2025-06-26 05:37:00,251 - PSS_RAG - INFO - info:54 - Initializing PSS RAG System...
+2025-06-26 05:37:00,253 - PSS_RAG - INFO - info:54 - Initializing PSS RAG System...
+2025-06-26 05:37:00,255 - PSS_RAG - INFO - info:54 - System initialized successfully
+2025-06-26 05:37:00,258 - PSS_RAG - INFO - info:54 - System initialized successfully
+2025-06-26 05:37:01,234 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:37:01,243 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:37:05,535 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:37:05,539 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:37:09,835 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:37:09,836 - PSS_RAG - ERROR - error:58 - Error generating response: RetryError[<Future at 0x1a1f62d7ce0 state=finished raised AccessDeniedException>]
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x1a1f62d7ce0 state=finished raised AccessDeniedException>]
+2025-06-26 05:37:09,838 - PSS_RAG - ERROR - error:58 - API call failed - bedrock_generate - 9.56s
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x1a1f62d7ce0 state=finished raised AccessDeniedException>]
+2025-06-26 05:37:09,839 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:37:09,844 - PSS_RAG - ERROR - error:58 - Error generating response: RetryError[<Future at 0x1a1f59f8770 state=finished raised AccessDeniedException>]
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x1a1f59f8770 state=finished raised AccessDeniedException>]
+2025-06-26 05:37:09,845 - PSS_RAG - ERROR - error:58 - API call failed - bedrock_generate - 9.58s
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x1a1f59f8770 state=finished raised AccessDeniedException>]
+2025-06-26 05:37:14,792 - PSS_RAG - ERROR - error:58 - Failed to load chunks and index: tuple index out of range
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\Rag.py", line 75, in load_chunks_and_index
+    return store_data()
+           ^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\Store_data.py", line 25, in store_data
+    vec_dim = embeddings.shape[1]  # Vector dimension, e.g., all-MiniLM-L6-v2 is 384
+              ~~~~~~~~~~~~~~~~^^^
+IndexError: tuple index out of range
+2025-06-26 05:37:14,794 - PSS_RAG - ERROR - error:58 - Application error: tuple index out of range
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\Rag.py", line 288, in run
+    self.chunks, self.index, self.file_names = self.load_chunks_and_index()
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 175, in __call__
+    return self._cached_func(self._instance, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 219, in __call__
+    return self._get_or_create_cached_value(args, kwargs, spinner_message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 261, in _get_or_create_cached_value
+    return self._handle_cache_miss(cache, value_key, func_args, func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 320, in _handle_cache_miss
+    computed_value = self._info.func(*func_args, **func_kwargs)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\Rag.py", line 75, in load_chunks_and_index
+    return store_data()
+           ^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\Store_data.py", line 25, in store_data
+    vec_dim = embeddings.shape[1]  # Vector dimension, e.g., all-MiniLM-L6-v2 is 384
+              ~~~~~~~~~~~~~~~~^^^
+IndexError: tuple index out of range
+2025-06-26 05:37:18,782 - PSS_RAG - ERROR - error:58 - Failed to load chunks and index: tuple index out of range
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\Rag.py", line 75, in load_chunks_and_index
+    return store_data()
+           ^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\Store_data.py", line 25, in store_data
+    vec_dim = embeddings.shape[1]  # Vector dimension, e.g., all-MiniLM-L6-v2 is 384
+              ~~~~~~~~~~~~~~~~^^^
+IndexError: tuple index out of range
+2025-06-26 05:37:18,784 - PSS_RAG - ERROR - error:58 - Application error: tuple index out of range
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\Rag.py", line 288, in run
+    self.chunks, self.index, self.file_names = self.load_chunks_and_index()
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 175, in __call__
+    return self._cached_func(self._instance, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 219, in __call__
+    return self._get_or_create_cached_value(args, kwargs, spinner_message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 261, in _get_or_create_cached_value
+    return self._handle_cache_miss(cache, value_key, func_args, func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 320, in _handle_cache_miss
+    computed_value = self._info.func(*func_args, **func_kwargs)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\Rag.py", line 75, in load_chunks_and_index
+    return store_data()
+           ^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\Store_data.py", line 25, in store_data
+    vec_dim = embeddings.shape[1]  # Vector dimension, e.g., all-MiniLM-L6-v2 is 384
+              ~~~~~~~~~~~~~~~~^^^
+IndexError: tuple index out of range
+2025-06-26 05:39:33,115 - PSS_RAG - INFO - info:54 - AWS Bedrock client initialized successfully
+2025-06-26 05:39:33,119 - PSS_RAG - INFO - info:54 - Initializing PSS RAG System...
+2025-06-26 05:39:33,121 - PSS_RAG - INFO - info:54 - System initialized successfully
+2025-06-26 05:39:34,298 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:39:38,614 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:39:42,912 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:39:42,913 - PSS_RAG - ERROR - error:58 - Error generating response: RetryError[<Future at 0x23876ccb620 state=finished raised AccessDeniedException>]
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x23876ccb620 state=finished raised AccessDeniedException>]
+2025-06-26 05:39:42,915 - PSS_RAG - ERROR - error:58 - API call failed - bedrock_generate - 9.78s
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x23876ccb620 state=finished raised AccessDeniedException>]
+2025-06-26 05:41:04,422 - PSS_RAG - INFO - info:54 - Initializing PSS RAG System...
+2025-06-26 05:41:04,423 - PSS_RAG - INFO - info:54 - System initialized successfully
+2025-06-26 05:41:04,728 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:41:09,024 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:41:13,318 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:41:13,318 - PSS_RAG - ERROR - error:58 - Error generating response: RetryError[<Future at 0x2383b7d6cf0 state=finished raised AccessDeniedException>]
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x2383b7d6cf0 state=finished raised AccessDeniedException>]
+2025-06-26 05:41:13,319 - PSS_RAG - ERROR - error:58 - API call failed - bedrock_generate - 8.89s
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x2383b7d6cf0 state=finished raised AccessDeniedException>]
+2025-06-26 05:41:13,759 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:41:18,067 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:41:22,372 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:41:22,372 - PSS_RAG - ERROR - error:58 - Error generating response: RetryError[<Future at 0x23879bd16d0 state=finished raised AccessDeniedException>]
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x23879bd16d0 state=finished raised AccessDeniedException>]
+2025-06-26 05:41:22,374 - PSS_RAG - ERROR - error:58 - API call failed - bedrock_generate - 8.91s
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x23879bd16d0 state=finished raised AccessDeniedException>]
+2025-06-26 05:41:22,374 - PSS_RAG - ERROR - error:58 - LLM response error for file 61880001(2): Service temporarily unavailable: RetryError[<Future at 0x23879bd16d0 state=finished raised AccessDeniedException>]
+NoneType: None
+2025-06-26 05:41:22,676 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:41:26,974 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:41:31,280 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:41:31,281 - PSS_RAG - ERROR - error:58 - Error generating response: RetryError[<Future at 0x2372021eb40 state=finished raised AccessDeniedException>]
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x2372021eb40 state=finished raised AccessDeniedException>]
+2025-06-26 05:41:31,283 - PSS_RAG - ERROR - error:58 - API call failed - bedrock_generate - 8.91s
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x2372021eb40 state=finished raised AccessDeniedException>]
+2025-06-26 05:41:31,284 - PSS_RAG - ERROR - error:58 - LLM response error for file 14910017: Service temporarily unavailable: RetryError[<Future at 0x2372021eb40 state=finished raised AccessDeniedException>]
+NoneType: None
+2025-06-26 05:41:31,576 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:41:35,870 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:41:40,193 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:41:40,194 - PSS_RAG - ERROR - error:58 - Error generating response: RetryError[<Future at 0x2372021d160 state=finished raised AccessDeniedException>]
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x2372021d160 state=finished raised AccessDeniedException>]
+2025-06-26 05:41:40,195 - PSS_RAG - ERROR - error:58 - API call failed - bedrock_generate - 8.91s
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x2372021d160 state=finished raised AccessDeniedException>]
+2025-06-26 05:41:40,196 - PSS_RAG - ERROR - error:58 - LLM response error for file 80890001(3): Service temporarily unavailable: RetryError[<Future at 0x2372021d160 state=finished raised AccessDeniedException>]
+NoneType: None
+2025-06-26 05:41:40,491 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:41:44,784 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:41:49,100 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:41:49,100 - PSS_RAG - ERROR - error:58 - Error generating response: RetryError[<Future at 0x23879bd1f40 state=finished raised AccessDeniedException>]
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x23879bd1f40 state=finished raised AccessDeniedException>]
+2025-06-26 05:41:49,101 - PSS_RAG - ERROR - error:58 - API call failed - bedrock_generate - 8.90s
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x23879bd1f40 state=finished raised AccessDeniedException>]
+2025-06-26 05:41:49,102 - PSS_RAG - ERROR - error:58 - LLM response error for file 61880001(3): Service temporarily unavailable: RetryError[<Future at 0x23879bd1f40 state=finished raised AccessDeniedException>]
+NoneType: None
+2025-06-26 05:41:49,398 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:41:53,698 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:41:57,999 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:41:58,001 - PSS_RAG - ERROR - error:58 - Error generating response: RetryError[<Future at 0x238751412e0 state=finished raised AccessDeniedException>]
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x238751412e0 state=finished raised AccessDeniedException>]
+2025-06-26 05:41:58,002 - PSS_RAG - ERROR - error:58 - API call failed - bedrock_generate - 8.90s
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x238751412e0 state=finished raised AccessDeniedException>]
+2025-06-26 05:41:58,003 - PSS_RAG - ERROR - error:58 - LLM response error for file 63640022: Service temporarily unavailable: RetryError[<Future at 0x238751412e0 state=finished raised AccessDeniedException>]
+NoneType: None
+2025-06-26 05:43:52,681 - PSS_RAG - INFO - info:54 - AWS Bedrock client initialized successfully
+2025-06-26 05:43:52,686 - PSS_RAG - INFO - info:54 - Initializing PSS RAG System...
+2025-06-26 05:43:52,688 - PSS_RAG - INFO - info:54 - System initialized successfully
+2025-06-26 05:43:53,769 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:43:58,079 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:44:02,387 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:44:02,387 - PSS_RAG - ERROR - error:58 - Error generating response: RetryError[<Future at 0x209f42c93d0 state=finished raised AccessDeniedException>]
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x209f42c93d0 state=finished raised AccessDeniedException>]
+2025-06-26 05:44:02,389 - PSS_RAG - ERROR - error:58 - API call failed - bedrock_generate - 9.69s
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x209f42c93d0 state=finished raised AccessDeniedException>]
+2025-06-26 05:44:55,743 - PSS_RAG - INFO - info:54 - AWS Bedrock client initialized successfully
+2025-06-26 05:44:55,746 - PSS_RAG - INFO - info:54 - Initializing PSS RAG System...
+2025-06-26 05:44:55,748 - PSS_RAG - INFO - info:54 - System initialized successfully
+2025-06-26 05:44:56,788 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:45:01,090 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:45:05,393 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:45:05,395 - PSS_RAG - ERROR - error:58 - Error generating response: RetryError[<Future at 0x26073495130 state=finished raised AccessDeniedException>]
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x26073495130 state=finished raised AccessDeniedException>]
+2025-06-26 05:45:05,401 - PSS_RAG - ERROR - error:58 - API call failed - bedrock_generate - 9.64s
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x26073495130 state=finished raised AccessDeniedException>]
+2025-06-26 05:47:44,545 - PSS_RAG - INFO - info:54 - AWS Bedrock client initialized successfully
+2025-06-26 05:47:44,548 - PSS_RAG - INFO - info:54 - Initializing PSS RAG System...
+2025-06-26 05:47:44,551 - PSS_RAG - INFO - info:54 - System initialized successfully
+2025-06-26 05:47:45,735 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:47:50,030 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:47:54,326 - PSS_RAG - ERROR - error:58 - AWS Bedrock ClientError: AccessDeniedException - An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:47:54,327 - PSS_RAG - ERROR - error:58 - Error generating response: RetryError[<Future at 0x2506f0b3650 state=finished raised AccessDeniedException>]
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x2506f0b3650 state=finished raised AccessDeniedException>]
+2025-06-26 05:47:54,330 - PSS_RAG - ERROR - error:58 - API call failed - bedrock_generate - 9.77s
+Traceback (most recent call last):
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 56, in _call_bedrock_with_retry
+    response = self.client.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the InvokeModel operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 140, in generate_response
+    response_body = self._call_bedrock_with_retry(body)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x2506f0b3650 state=finished raised AccessDeniedException>]
+2025-06-26 05:55:13,976 - PSS_RAG - INFO - info:54 - AWS Bedrock client initialized successfully
+2025-06-26 05:55:13,979 - PSS_RAG - INFO - info:54 - Initializing PSS RAG System...
+2025-06-26 05:55:13,982 - PSS_RAG - INFO - info:54 - System initialized successfully
+2025-06-26 05:55:15,533 - PSS_RAG - ERROR - error:58 - Bedrock API error: An error occurred (AccessDeniedException) when calling the Converse operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 127, in generate_response
+    response = self.client.converse(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the Converse operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:55:15,536 - PSS_RAG - ERROR - error:58 - API call failed - bedrock_converse - 1.55s
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 127, in generate_response
+    response = self.client.converse(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the Converse operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:55:58,780 - PSS_RAG - INFO - info:54 - AWS Bedrock client initialized successfully
+2025-06-26 05:55:58,784 - PSS_RAG - INFO - info:54 - Initializing PSS RAG System...
+2025-06-26 05:55:58,785 - PSS_RAG - INFO - info:54 - System initialized successfully
+2025-06-26 05:55:59,771 - PSS_RAG - ERROR - error:58 - Bedrock API error: An error occurred (AccessDeniedException) when calling the Converse operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 127, in generate_response
+    response = self.client.converse(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the Converse operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:55:59,776 - PSS_RAG - ERROR - error:58 - API call failed - bedrock_converse - 0.98s
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 127, in generate_response
+    response = self.client.converse(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the Converse operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:56:05,665 - PSS_RAG - INFO - info:54 - AWS Bedrock client initialized successfully
+2025-06-26 05:56:06,669 - PSS_RAG - ERROR - error:58 - Bedrock API error: An error occurred (AccessDeniedException) when calling the Converse operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 127, in generate_response
+    response = self.client.converse(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the Converse operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:56:06,671 - PSS_RAG - ERROR - error:58 - API call failed - bedrock_converse - 1.00s
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 127, in generate_response
+    response = self.client.converse(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the Converse operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:56:06,981 - PSS_RAG - ERROR - error:58 - Bedrock API error: An error occurred (AccessDeniedException) when calling the Converse operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 127, in generate_response
+    response = self.client.converse(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the Converse operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 05:56:06,982 - PSS_RAG - ERROR - error:58 - API call failed - bedrock_converse - 0.31s
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 127, in generate_response
+    response = self.client.converse(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\miniconda3\Lib\site-packages\botocore\client.py", line 1058, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.AccessDeniedException: An error occurred (AccessDeniedException) when calling the Converse operation: User: arn:aws:iam::381492212823:user/DE_NONMIDS_Zejun_Bai is not authorized to perform: bedrock:InvokeModel on resource: arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0 because no identity-based policy allows the bedrock:InvokeModel action
+2025-06-26 06:01:49,709 - PSS_RAG - INFO - info:54 - AWS Bedrock client initialized successfully
+2025-06-26 06:01:50,883 - PSS_RAG - WARNING - warning:62 - AWS Bedrock access denied. Switching to mock service...
+2025-06-26 06:01:50,885 - PSS_RAG - INFO - info:54 - Initialized mock LLM service as fallback
+2025-06-26 06:03:32,670 - PSS_RAG - INFO - info:54 - AWS Bedrock client initialized successfully
+2025-06-26 06:03:32,672 - PSS_RAG - INFO - info:54 - Initializing PSS RAG System...
+2025-06-26 06:03:32,673 - PSS_RAG - INFO - info:54 - System initialized successfully
+2025-06-26 06:03:33,592 - PSS_RAG - WARNING - warning:62 - AWS Bedrock access denied. Switching to mock service...
+2025-06-26 06:03:33,593 - PSS_RAG - INFO - info:54 - Initialized mock LLM service as fallback
+2025-06-26 06:06:33,305 - PSS_RAG - INFO - info:54 - Initializing PSS RAG System...
+2025-06-26 06:06:33,306 - PSS_RAG - INFO - info:54 - System initialized successfully

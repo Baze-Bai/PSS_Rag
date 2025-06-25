@@ -52,15 +52,39 @@ class Config:
         missing = []
         warnings = []
         
+        print("🔍 Validating configuration...")
+        
         # Check required AWS credentials
-        if not cls.AWS_ACCESS_KEY_ID:
+        if not cls.AWS_ACCESS_KEY_ID or cls.AWS_ACCESS_KEY_ID == "your_aws_access_key_here":
             missing.append("AWS_ACCESS_KEY_ID")
-        if not cls.AWS_SECRET_ACCESS_KEY:
-            missing.append("AWS_SECRET_ACCESS_KEY")
+            print("❌ AWS_ACCESS_KEY_ID is missing or using placeholder value")
+        else:
+            print(f"✅ AWS_ACCESS_KEY_ID: {cls.AWS_ACCESS_KEY_ID[:4]}...{cls.AWS_ACCESS_KEY_ID[-4:]}")
             
+        if not cls.AWS_SECRET_ACCESS_KEY or cls.AWS_SECRET_ACCESS_KEY == "your_aws_secret_key_here":
+            missing.append("AWS_SECRET_ACCESS_KEY")
+            print("❌ AWS_SECRET_ACCESS_KEY is missing or using placeholder value")
+        else:
+            print(f"✅ AWS_SECRET_ACCESS_KEY: ***...{cls.AWS_SECRET_ACCESS_KEY[-4:]}")
+        
         # Check file paths
         if not os.path.exists(cls.DATA_FILE):
             warnings.append(f"Data file not found: {cls.DATA_FILE}")
+            print(f"⚠️ Data file not found: {cls.DATA_FILE}")
+        else:
+            print(f"✅ Data file found: {cls.DATA_FILE}")
+        
+        # Provide helpful messages
+        if missing:
+            print("\n🛠️ To fix configuration issues:")
+            print("1. Make sure you have a .env file in your project root")
+            print("2. Add your actual AWS credentials to the .env file:")
+            print("   AWS_ACCESS_KEY_ID=AKIA...")
+            print("   AWS_SECRET_ACCESS_KEY=...")
+            print("3. Remove any quotes around the values")
+            print("4. Ensure no spaces around the = sign")
+            
+        print(f"\n📊 Configuration status: {'✅ Valid' if len(missing) == 0 else '❌ Invalid'}")
             
         return {
             "missing_required": missing,
@@ -75,4 +99,23 @@ class Config:
             "region_name": cls.AWS_REGION,
             "aws_access_key_id": cls.AWS_ACCESS_KEY_ID,
             "aws_secret_access_key": cls.AWS_SECRET_ACCESS_KEY
-        } 
+        }
+    
+    @classmethod
+    def print_current_config(cls):
+        """Print current configuration for debugging"""
+        print("\n📋 Current Configuration:")
+        print(f"   AWS Region: {cls.AWS_REGION}")
+        print(f"   AWS Model: {cls.AWS_MODEL_ID}")
+        print(f"   Embedding Model: {cls.EMBEDDING_MODEL}")
+        print(f"   Max Tokens: {cls.MAX_TOKENS}")
+        print(f"   Temperature: {cls.LLM_TEMPERATURE}")
+        print(f"   Top K Results: {cls.TOP_K_RESULTS}")
+        print(f"   Data File: {cls.DATA_FILE}")
+        print(f"   Log Level: {cls.LOG_LEVEL}")
+
+if __name__ == "__main__":
+    # Test configuration
+    Config.print_current_config()
+    validation = Config.validate_config()
+    print(f"\nValidation result: {validation}") 

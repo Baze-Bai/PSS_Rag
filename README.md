@@ -407,7 +407,3 @@ This project demonstrates mastery of:
 ---
 
 **Note**: This is a production-ready implementation suitable for enterprise deployment. All security, privacy, and compliance features are implemented according to industry best practices.
-
-video link: https://duke.voicethread.com/myvoice/thread/30997915
-
-Deployment: https://pssrag-p9rccdfzujjytt2hv9ydr4.streamlit.app/
