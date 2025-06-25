@@ -2,6 +2,16 @@
 
 A comprehensive Retrieval-Augmented Generation (RAG) system for professional services, featuring AWS Bedrock integration, enterprise-grade security, and production-ready architecture.
 
+## 🎬 **Live Demo & Deployment**
+
+### 🚀 **Live Application** 
+**Access the Production System**: **[https://pssrag-p9rccdfzujjytt2hv9ydr4.streamlit.app/](https://pssrag-p9rccdfzujjytt2hv9ydr4.streamlit.app/)**
+
+### 📺 **Video Demonstration**  
+**Watch the System Demo**: **[https://duke.voicethread.com/myvoice/thread/30997915](https://duke.voicethread.com/myvoice/thread/30997915)**
+
+> **Experience the system firsthand through our live deployment or watch the comprehensive video demonstration showcasing all features and capabilities.**
+
 ## 🚀 Features
 
 ### Core Capabilities
