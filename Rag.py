@@ -3,12 +3,19 @@ Enhanced PSS RAG System with AWS Bedrock Integration
 Implements comprehensive security, monitoring, and error handling.
 """
 
+# MUST be the first Streamlit command - configure page settings BEFORE any other imports
+import streamlit as st
+st.set_page_config(
+    page_title="PSS RAG System", 
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
 import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
 from Store_data import store_data
 import os
-import streamlit as st
 import pandas as pd
 from Find_project import get_filtered_data_by_projects, find_resumes
 import re
@@ -18,15 +25,26 @@ from datetime import datetime
 # Import our enhanced modules
 from config import Config
 from utils.logger import logger
-from utils.security import security_manager
-from services.llm_service import llm_service
 
-# MUST be the first Streamlit command - configure page settings
-st.set_page_config(
-    page_title="PSS RAG System", 
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
+# Initialize these modules only when needed to avoid early Streamlit usage
+security_manager = None
+llm_service = None
+
+def get_security_manager():
+    """Lazy load security manager to avoid early Streamlit usage"""
+    global security_manager
+    if security_manager is None:
+        from utils.security import security_manager as sm
+        security_manager = sm
+    return security_manager
+
+def get_llm_service():
+    """Lazy load LLM service to avoid early Streamlit usage"""
+    global llm_service
+    if llm_service is None:
+        from services.llm_service import llm_service as ls
+        llm_service = ls
+    return llm_service
 
 class RAGSystem:
     """Enhanced RAG System with comprehensive features"""
@@ -103,20 +121,20 @@ class RAGSystem:
             st.header("System Status")
             
             # Health check
-            health = llm_service.health_check()
+            health = get_llm_service().health_check()
             if health["healthy"]:
                 st.success("✅ LLM Service: Healthy")
             else:
                 st.error("❌ LLM Service: Unhealthy")
             
             # Performance stats
-            stats = llm_service.get_performance_stats()
+            stats = get_llm_service().get_performance_stats()
             st.metric("Total Requests", stats["total_requests"])
             st.metric("Success Rate", f"{stats['success_rate']:.1f}%")
             st.metric("Avg Response Time", f"{stats['average_response_time']:.2f}s")
             
             # Security info
-            session_info = security_manager.get_session_info()
+            session_info = get_security_manager().get_session_info()
             st.metric("Rate Limit Remaining", session_info["rate_limit_remaining"])
             
             # Configuration display
@@ -130,8 +148,8 @@ class RAGSystem:
         """Process user query and return results"""
         try:
             # Security validation
-            client_id = security_manager.get_client_ip()
-            allowed, remaining = security_manager.check_rate_limit(client_id)
+            client_id = get_security_manager().get_client_ip()
+            allowed, remaining = get_security_manager().check_rate_limit(client_id)
             
             if not allowed:
                 st.error("⚠️ Rate limit exceeded. Please wait before making another request.")
@@ -185,7 +203,7 @@ class RAGSystem:
                 status_text.text(f"Processing file {i+1}/{len(top_chunks)}: {file_name}")
                 
                 # Generate response using LLM service
-                response = llm_service.generate_response(question, chunk)
+                response = get_llm_service().generate_response(question, chunk)
                 
                 answer_text += f"\n### 📄 File: {file_name}\n\n"
                 

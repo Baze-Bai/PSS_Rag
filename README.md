@@ -5,7 +5,7 @@ A comprehensive Retrieval-Augmented Generation (RAG) system for professional ser
 ## 🎬 **Live Demo & Deployment**
 
 ### 🚀 **Live Application** 
-**Access the Production System**: **[https://pssrag-p9rccdfzujjytt2hv9ydr4.streamlit.app/](https://pssrag-p9rccdfzujjytt2hv9ydr4.streamlit.app/)**
+**Access the Production System**: **[https://pssrag-fjzvcigz3gkm4yy2arxmz2.streamlit.app/](https://pssrag-p9rccdfzujjytt2hv9ydr4.streamlit.app/)**
 
 ### 📺 **Video Demonstration**  
 **Watch the System Demo**: **[https://duke.voicethread.com/myvoice/thread/30997915](https://duke.voicethread.com/myvoice/thread/30997915)**

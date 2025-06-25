@@ -9,7 +9,6 @@ import hashlib
 from typing import Dict, List, Tuple, Optional
 from collections import defaultdict, deque
 from datetime import datetime, timedelta
-import streamlit as st
 from config import Config
 from utils.logger import logger
 
@@ -42,6 +41,9 @@ class SecurityManager:
     
     def get_client_ip(self) -> str:
         """Get client IP address for rate limiting"""
+        # Import streamlit here to avoid early usage
+        import streamlit as st
+        
         # In Streamlit, we use session state as identifier
         if 'client_id' not in st.session_state:
             st.session_state.client_id = hashlib.md5(
@@ -167,6 +169,9 @@ class SecurityManager:
     
     def get_session_info(self) -> Dict:
         """Get current session security information"""
+        # Import streamlit here to avoid early usage
+        import streamlit as st
+        
         client_id = self.get_client_ip()
         allowed, remaining = self.check_rate_limit(client_id)
         

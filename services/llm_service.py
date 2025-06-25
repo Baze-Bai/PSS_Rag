@@ -6,7 +6,6 @@ Simplified and optimized version with fallback to mock service.
 import json
 import time
 import boto3
-import streamlit as st
 from typing import Dict, Optional
 from botocore.exceptions import ClientError, BotoCoreError, NoCredentialsError, EndpointConnectionError
 from tenacity import retry, stop_after_attempt, wait_exponential
@@ -50,20 +49,27 @@ class LLMService:
         except ImportError:
             logger.error("Failed to import mock service")
     
-    @st.cache_resource
-    def _get_bedrock_client(_self):
+    def _get_bedrock_client(self):
         """Create and cache the AWS Bedrock runtime client."""
-        try:
-            return boto3.client("bedrock-runtime", region_name=REGION)
-        except NoCredentialsError:
-            logger.error("AWS credentials not found")
-            raise ValueError("❌ AWS credentials not found. Please set them in your .env file or use `aws configure`.")
-        except EndpointConnectionError:
-            logger.error("Could not connect to Bedrock endpoint")
-            raise ValueError("❌ Could not connect to Bedrock endpoint. Check your AWS region and network.")
-        except Exception as e:
-            logger.error(f"Failed to initialize Bedrock client: {str(e)}")
-            raise ValueError(f"❌ Failed to initialize Bedrock client: {str(e)}")
+        # Import streamlit here to avoid early usage
+        import streamlit as st
+        
+        # Use caching only when streamlit is available
+        @st.cache_resource
+        def _cached_client():
+            try:
+                return boto3.client("bedrock-runtime", region_name=REGION)
+            except NoCredentialsError:
+                logger.error("AWS credentials not found")
+                raise ValueError("❌ AWS credentials not found. Please set them in your .env file or use `aws configure`.")
+            except EndpointConnectionError:
+                logger.error("Could not connect to Bedrock endpoint")
+                raise ValueError("❌ Could not connect to Bedrock endpoint. Check your AWS region and network.")
+            except Exception as e:
+                logger.error(f"Failed to initialize Bedrock client: {str(e)}")
+                raise ValueError(f"❌ Failed to initialize Bedrock client: {str(e)}")
+        
+        return _cached_client()
     
     def _initialize_client(self):
         """Initialize AWS Bedrock client"""
