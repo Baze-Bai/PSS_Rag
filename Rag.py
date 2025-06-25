@@ -21,6 +21,13 @@ from utils.logger import logger
 from utils.security import security_manager
 from services.llm_service import llm_service
 
+# MUST be the first Streamlit command - configure page settings
+st.set_page_config(
+    page_title="PSS RAG System", 
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
 class RAGSystem:
     """Enhanced RAG System with comprehensive features"""
     
@@ -88,12 +95,6 @@ class RAGSystem:
     
     def setup_ui(self):
         """Setup Streamlit UI"""
-        st.set_page_config(
-            page_title="PSS RAG System", 
-            layout="wide",
-            initial_sidebar_state="expanded"
-        )
-        
         st.title("🔍 PSS Professional Services RAG System")
         st.markdown("*AI-powered project and employee information retrieval*")
         
