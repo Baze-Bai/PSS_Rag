@@ -4,52 +4,62 @@ from sentence_transformers import SentenceTransformer
 from pymongo import MongoClient
 from Store_data import store_data
 import os
-import requests
 import json
 import streamlit as st
 from dotenv import load_dotenv
 import pandas as pd
 from Find_project import get_filtered_data_by_projects, find_resumes
 import re
-import ollama
+import boto3
 
-def ask_ds(prompt):
-    # Directly call the deepseek model using the ollama module
+# === CONFIGURATION ===
+REGION = "us-east-1"
+MODEL_ID = "anthropic.claude-3-sonnet-20240229-v1:0"
+
+def ask_bedrock(prompt):
+    """Call AWS Bedrock Claude model"""
     try:
-        # Call the generate method from the ollama library
-        response = ollama.generate(
-            model="deepseek-r1:14b",  # Use the deepseek model
-            prompt=prompt,
-            options={
-                "temperature": 0.05,
-                "num_predict": 1024  # Control the maximum token count
-            }
+        # Load environment variables
+        load_dotenv()
+        
+        # Create Bedrock client
+        bedrock = boto3.client(
+            'bedrock-runtime',
+            region_name=REGION,
+            aws_access_key_id=os.getenv('AWS_ACCESS_KEY_ID'),
+            aws_secret_access_key=os.getenv('AWS_SECRET_ACCESS_KEY')
         )
         
-        print("Ollama response successfully received")
+        # Prepare the request body for Claude
+        body = {
+            "anthropic_version": "bedrock-2023-05-31",
+            "max_tokens": 1024,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ],
+            "temperature": 0.05
+        }
         
-        # Extract content from the ollama response
-        if response and 'response' in response:
-            return response['response']
+        # Call Bedrock
+        response = bedrock.invoke_model(
+            modelId=MODEL_ID,
+            body=json.dumps(body)
+        )
+        
+        # Parse response
+        response_body = json.loads(response['body'].read())
+        
+        if 'content' in response_body and len(response_body['content']) > 0:
+            return response_body['content'][0]['text']
         else:
-            return "Ollama response format abnormal, answer content not found"
+            return "Bedrock response format abnormal, answer content not found"
             
     except Exception as e:
-        print(f"Error calling Ollama: {str(e)}")
+        print(f"Error calling Bedrock: {str(e)}")
         return f"Error: {str(e)}"
-
-
-def ask_ollama(prompt, model='llama3'):
-    url = 'http://localhost:11434/api/generate'
-    headers = {'Content-Type': 'application/json'}
-    data = {
-        'model': model,
-        'prompt': prompt,
-        'stream': False
-    }
-
-    response = requests.post(url, headers=headers, json=data)
-    return response.json()['response']
 
 def main():
 
@@ -59,11 +69,6 @@ def main():
     @st.cache_data
     def load_data():
         return pd.read_csv(DATA_FILE)
-    
-    @st.cache_data
-    def get_bearer():
-        load_dotenv()
-        return 'Bearer ' + os.getenv("DEEP_SEEK_API_KEY")
 
     # Cache data loading (assuming store_data() returns chunks and index)
     @st.cache_resource
@@ -79,7 +84,6 @@ def main():
     st.title("Integrated Q&A and Project Lookup")
     # Call the cached functions in the main logic
     df = load_data()
-    Bear = get_bearer()
     chunks, index, file_names = load_chunks_and_index()
     model = load_model()
 
@@ -97,105 +101,89 @@ def main():
             st.warning("Please enter a question.")
             return
 
-    # Encode the question into a vector (and normalize)
-    q_embedding = model.encode([question])
-    q_embedding = np.array(q_embedding, dtype="float32")
-    faiss.normalize_L2(q_embedding)
+        # Encode the question into a vector (and normalize)
+        q_embedding = model.encode([question])
+        q_embedding = np.array(q_embedding, dtype="float32")
+        faiss.normalize_L2(q_embedding)
 
-    # Search for the 5 text snippets most relevant to the question in FAISS
-    k = 5
-    D, I = index.search(q_embedding, k)  # D is the similarity scores, I are the indices
-    top_idx = I[0]    # List of indices for the most relevant text snippets
-    top_chunks = []
-    top_file = []
-    for idx in top_idx:  # I[0] is the list of top-k indices
-        top_chunks.append(chunks[idx])
-        top_file.append(file_names[idx])
+        # Search for the 5 text snippets most relevant to the question in FAISS
+        k = 5
+        D, I = index.search(q_embedding, k)  # D is the similarity scores, I are the indices
+        top_idx = I[0]    # List of indices for the most relevant text snippets
+        top_chunks = []
+        top_file = []
+        for idx in top_idx:  # I[0] is the list of top-k indices
+            top_chunks.append(chunks[idx])
+            top_file.append(file_names[idx])
 
-    number_files = []
-    for file in top_file:
-        numbers = re.findall(r"\d+", file)
-        number_files.append(numbers[0])
-    
-    unique_list = []
-    for item in number_files:
-        if item not in unique_list:
-            unique_list.append(item)
-
-    # Prepend '0' if your project IDs require that format
-    project_numbers = ['0' + f for f in unique_list]
-    
-    if top_file:
-        st.info(f"Found relevant projects: {', '.join(top_file)}")
-    
-    context_text = "\n".join(top_chunks)  # Join multiple text snippets with newlines
-
-    prompt = f"Answer the user's questions based on the following documentation.\ndocument content:\n{context_text}\n\nquestion: {question}\n"
-
-    st.write("Answer")
-    answer_container = st.empty()  # Container used for real-time answer updates
-    answer_text = ""  # Cumulative answer content
-
-    for i in range(5):
-        context_text = top_chunks[i]
-        prompt = f"Answer the user's questions based on the following documentation.\ndocument content:\n{context_text}\n\nquestion: {question}\n"
-
-        response = ollama.generate(
-            model="llama3",   # e.g., "llama3.2" or your custom model name
-            prompt=prompt
-        )
+        number_files = []
+        for file in top_file:
+            numbers = re.findall(r"\d+", file)
+            number_files.append(numbers[0])
         
-        answer_text += f"\n For File {top_file[i]} \n" + "\n"
+        unique_list = []
+        for item in number_files:
+            if item not in unique_list:
+                unique_list.append(item)
+
+        # Prepend '0' if your project IDs require that format
+        project_numbers = ['0' + f for f in unique_list]
         
-        generated_text = response.get("response", "")
-        answer_text += generated_text + '\n'
+        if top_file:
+            st.info(f"Found relevant projects: {', '.join(top_file)}")
         
-        answer_text += "\n LLM judge: \n" + "\n"
+        st.write("Answer")
+        answer_container = st.empty()  # Container used for real-time answer updates
+        answer_text = ""  # Cumulative answer content
 
-        judge_prompt = f"This is the question user ask:{prompt}; \n\nHere is the answer from LLM{generated_text}; \n\nplease judge the Accuracy, Clarity and Relevance of the answer based on the question in short, rate the answer from 1~100 for each part, 100 represents best, while 1 represents worst, 100 represents best."+"Do not include any internal thought process or chain-of-thought reasoning.\n\n"
+        for i in range(5):
+            context_text = top_chunks[i]
+            prompt = f"Answer the user's questions based on the following documentation.\ndocument content:\n{context_text}\n\nquestion: {question}\n"
+
+            response = ask_bedrock(prompt)
+            
+            answer_text += f"\n For File {top_file[i]} \n" + "\n"
+            answer_text += response + '\n'
+            
+            answer_container.markdown(answer_text)
+
+        st.subheader("Related Project Information")
+        filtered_data = get_filtered_data_by_projects(project_numbers, df)
         
-        judge_text = ask_ds(judge_prompt)
+        # Display employee data
+        if not filtered_data.empty:
+            st.write("### Employees and Hours")
+            st.dataframe(filtered_data)
+        else:
+            st.warning("No employees found for the given project numbers.")
 
-        answer_text += judge_text + '\n'
-        answer_container.markdown(answer_text)
+        # Get resumes and project PDFs
+        employees = filtered_data['Employee'].unique()
+        resumes_found = find_resumes(employees)
 
-    st.subheader("Related Project Information")
-    filtered_data = get_filtered_data_by_projects(project_numbers, df)
-    
-    # Display employee data
-    if not filtered_data.empty:
-        st.write("### Employees and Hours")
-        st.dataframe(filtered_data)
-    else:
-        st.warning("No employees found for the given project numbers.")
+        # Display resumes
+        if resumes_found:
+            st.write("### Employee Resumes")
+            for emp, path in resumes_found.items():
+                with open(path, "rb") as file:
+                    st.download_button(label=f"Download {emp}'s Resume", data=file, file_name=f"{emp}.pdf")
+        else:
+            st.warning("No resumes found for the employees.")
 
-    # Get resumes and project PDFs
-    employees = filtered_data['Employee'].unique()
-    resumes_found = find_resumes(employees)
+        project_folder = 'Baze_project/_Marketing Project Sheets'
 
-    # Display resumes
-    if resumes_found:
-        st.write("### Employee Resumes")
-        for emp, path in resumes_found.items():
-            with open(path, "rb") as file:
-                st.download_button(label=f"Download {emp}'s Resume", data=file, file_name=f"{emp}.pdf")
-    else:
-        st.warning("No resumes found for the employees.")
-
-    project_folder = 'Baze_project/_Marketing Project Sheets'
-
-    project_pdfs_found = {}
-    for file in top_file:
-        project_pdfs_found[file] = os.path.join(project_folder, file+'.pdf')
-    # Display project PDFs
-    if project_pdfs_found:
-        st.write("### Project PDFs")
-        for f, path in project_pdfs_found.items():
-            with open(path, "rb") as file:
-                st.download_button(label=f"Download Project {f} PDF", data=file, file_name=os.path.basename(path))
-    else:
-        st.warning("No project PDFs found for the given projects.")
+        project_pdfs_found = {}
+        for file in top_file:
+            project_pdfs_found[file] = os.path.join(project_folder, file+'.pdf')
+        # Display project PDFs
+        if project_pdfs_found:
+            st.write("### Project PDFs")
+            for f, path in project_pdfs_found.items():
+                with open(path, "rb") as file:
+                    st.download_button(label=f"Download Project {f} PDF", data=file, file_name=os.path.basename(path))
+        else:
+            st.warning("No project PDFs found for the given projects.")
 
 if __name__ == "__main__":
-    # To run locally: streamlit run app.py
+    # To run locally: streamlit run Rag.py
     main()
