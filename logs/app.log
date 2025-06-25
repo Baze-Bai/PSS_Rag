@@ -1,0 +1,5 @@
+2025-06-26 05:30:31,899 - PSS_RAG - ERROR - error:58 - Failed to initialize AWS Bedrock client: Missing required configuration: AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY
+Traceback (most recent call last):
+  File "E:\AIPI561_final\PSS_Rag\services\llm_service.py", line 40, in _initialize_client
+    raise ValueError(f"Missing required configuration: {', '.join(missing)}")
+ValueError: Missing required configuration: AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY
